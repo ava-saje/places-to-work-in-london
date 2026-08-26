@@ -1,0 +1,4211 @@
+// Generated from london_wfh_places.json. To refresh after editing the source JSON,
+// re-run: node -e "const fs=require('fs');const p=JSON.parse(fs.readFileSync('london_wfh_places.json'));fs.writeFileSync('places-data.json',JSON.stringify(p))" and re-paste,
+// or see README.md for the one-line regen command.
+
+const PLACES = [
+  {
+    "name": "Nhow Shoreditch",
+    "area": "East",
+    "category": "hotel_lobby",
+    "neighbourhood": "Shoreditch",
+    "address": "check address",
+    "hours": "check hours",
+    "price": "Free to sit; buy a drink",
+    "notes": "Coworking-style lobby, plush chairs, private work labs, on-site bar/restaurant",
+    "source": "influenceonline.co.uk",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Standard",
+    "area": "Central",
+    "category": "hotel_lobby",
+    "neighbourhood": "King's Cross",
+    "address": "check address",
+    "hours": "Library lounge open to public until 6pm daily",
+    "price": "Free to sit; buy a drink",
+    "notes": "Cosy library lounge, quiet, rooftop restaurant for after",
+    "source": "influenceonline.co.uk",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready",
+      "quiet_focused",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Hoxton Shoreditch",
+    "area": "East",
+    "category": "hotel_lobby",
+    "neighbourhood": "Shoreditch",
+    "address": "81 Great Eastern St, EC2A",
+    "hours": "Daily 7am-11pm",
+    "price": "Free to sit; buy a drink",
+    "notes": "Open lobby, dedicated 'Working From_' coworking corner, buzzy social",
+    "source": "candaceabroad.com",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay",
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Hoxton Southwark",
+    "area": "South",
+    "category": "hotel_lobby",
+    "neighbourhood": "Southwark",
+    "address": "check address",
+    "hours": "check hours",
+    "price": "Free to sit; buy a drink",
+    "notes": "Dedicated 'Working From_' coworking space, comfy lounges, complimentary tea/coffee, buzzy social",
+    "source": "influenceonline.co.uk",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay",
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "citizenM Tower of London",
+    "area": "East",
+    "category": "hotel_lobby",
+    "neighbourhood": "St Katharine's/Wapping",
+    "address": "40 Trinity Square, EC3N 4DJ",
+    "hours": "Mon-Fri 7am-4pm; weekends 8am-2pm",
+    "price": "Free; sofas/tables",
+    "notes": "Free public lobby, sofas, fast wifi",
+    "source": "candaceabroad.com",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "citizenM Victoria",
+    "area": "Central",
+    "category": "hotel_lobby",
+    "neighbourhood": "Victoria",
+    "address": "multiple",
+    "hours": "check per property",
+    "price": "Free to sit; buy a drink",
+    "notes": "Open living-room lobby, workspaces with iMacs/printers, 24/7 food",
+    "source": "influenceonline.co.uk",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "citizenM Bankside",
+    "area": "South",
+    "category": "hotel_lobby",
+    "neighbourhood": "Bankside",
+    "address": "multiple",
+    "hours": "check per property",
+    "price": "Free to sit; buy a drink",
+    "notes": "Riverside citizenM, open living-room lobby",
+    "source": "influenceonline.co.uk",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready",
+      "outdoorsy",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "TRIBE Canary Wharf",
+    "area": "East",
+    "category": "hotel_lobby",
+    "neighbourhood": "Canary Wharf",
+    "address": "check address",
+    "hours": "24 hours",
+    "price": "Free to sit; buy a drink",
+    "notes": "24-hour 'Social Hub' ground floor designed for remote workers, buzzy",
+    "source": "influenceonline.co.uk",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay",
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Andaz Liverpool Street",
+    "area": "Central",
+    "category": "hotel_lobby",
+    "neighbourhood": "Liverpool Street",
+    "address": "check address",
+    "hours": "check hours",
+    "price": "Free to sit; buy a drink",
+    "notes": "Graffiti-art lobby, cosy cushioned corners",
+    "source": "thehandbook.com",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Kimpton Fitzroy London",
+    "area": "Central",
+    "category": "hotel_lobby",
+    "neighbourhood": "Bloomsbury",
+    "address": "check address",
+    "hours": "check hours",
+    "price": "Free to sit; buy a drink",
+    "notes": "Glamorous marble lobby, hidden seating areas, quiet corners",
+    "source": "thehandbook.com",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready",
+      "quiet_focused",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Brown's Hotel",
+    "area": "Central",
+    "category": "hotel_lobby",
+    "neighbourhood": "Mayfair",
+    "address": "check address",
+    "hours": "check hours",
+    "price": "Free to sit; buy a drink",
+    "notes": "Classic British lounge, quieter midweek, elegant",
+    "source": "thehandbook.com",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Hotel Café Royal",
+    "area": "Central",
+    "category": "hotel_lobby",
+    "neighbourhood": "Piccadilly",
+    "address": "check address",
+    "hours": "check hours",
+    "price": "Free to sit; pricier drinks",
+    "notes": "Grand extravagant lobby, custom chandelier",
+    "source": "thehandbook.com",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Shangri-La at The Shard",
+    "area": "South",
+    "category": "hotel_lobby",
+    "neighbourhood": "London Bridge",
+    "address": "check address",
+    "hours": "check hours",
+    "price": "Free to sit; pricier drinks",
+    "notes": "Elegant, views, expect a drinks minimum",
+    "source": "thehandbook.com",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "116 Pall Mall",
+    "area": "Central",
+    "category": "hotel_lobby",
+    "neighbourhood": "Westminster",
+    "address": "116 Pall Mall, SW1Y 5ED",
+    "hours": "check hours",
+    "price": "Members hot-desking; day rate",
+    "notes": "Members' hot-desking in brasserie/lounge, Academy meeting rooms, grand",
+    "source": "thehandbook.com",
+    "vibes": [
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Langham",
+    "area": "Central",
+    "category": "hotel_lobby",
+    "neighbourhood": "West End",
+    "address": "check address",
+    "hours": "check hours",
+    "price": "Free to sit; buy a drink",
+    "notes": "Stylish monochrome marble lobby lounge",
+    "source": "thehandbook.com",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "ME London",
+    "area": "Central",
+    "category": "hotel_lobby",
+    "neighbourhood": "Strand",
+    "address": "check address",
+    "hours": "check hours",
+    "price": "Free to sit; buy a drink",
+    "notes": "Sleek modern riverside lobby",
+    "source": "thehandbook.com",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready",
+      "outdoorsy",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "South Place Hotel",
+    "area": "Central",
+    "category": "hotel_lobby",
+    "neighbourhood": "Moorgate",
+    "address": "check address",
+    "hours": "check hours",
+    "price": "Free to sit; buy a drink",
+    "notes": "Contemporary lobby lounge, airplane chandelier",
+    "source": "thehandbook.com",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "W London",
+    "area": "Central",
+    "category": "hotel_lobby",
+    "neighbourhood": "Leicester Square",
+    "address": "check address",
+    "hours": "check hours",
+    "price": "Free to sit; buy a drink",
+    "notes": "Glamorous, buzzy, disco balls, theatre-like, social",
+    "source": "thehandbook.com",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay",
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Flemings Mayfair",
+    "area": "Central",
+    "category": "hotel_lobby",
+    "neighbourhood": "Mayfair",
+    "address": "check address",
+    "hours": "check hours",
+    "price": "Free to sit; buy a drink",
+    "notes": "Quieter classic luxury lobby",
+    "source": "thehandbook.com",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Athenaeum",
+    "area": "Central",
+    "category": "hotel_lobby",
+    "neighbourhood": "Mayfair",
+    "address": "116 Piccadilly, W1J 7BJ",
+    "hours": "check hours",
+    "price": "Explicit day rates for solo workers",
+    "notes": "Energetic background, brainstorming-friendly, private spaces for groups",
+    "source": "thehandbook.com",
+    "vibes": [
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Treehouse London",
+    "area": "Central",
+    "category": "hotel_lobby",
+    "neighbourhood": "Langham Place",
+    "address": "14-15 Langham Place, W1B 2QS",
+    "hours": "check hours",
+    "price": "Free to sit; buy a drink",
+    "notes": "Tropical treehouse-inspired lobby + rooftop bar",
+    "source": "thehandbook.com",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Sea Containers London",
+    "area": "South",
+    "category": "hotel_lobby",
+    "neighbourhood": "South Bank",
+    "address": "check address",
+    "hours": "check hours",
+    "price": "Free to sit; buy a drink",
+    "notes": "Known for laptop-friendly lobby (verify current policy)",
+    "source": "general search - verify",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Host Coffee",
+    "area": "Central",
+    "category": "coffee_shop",
+    "neighbourhood": "St Paul's",
+    "address": "London EC4M 9BW",
+    "hours": "Mon-Thu 7:30am-4:30pm; Fri 7:30am-4pm",
+    "price": "Free wifi (BYO food allowed)",
+    "notes": "Historic church setting, free wifi",
+    "source": "candaceabroad.com",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Wren Coffee",
+    "area": "Central",
+    "category": "coffee_shop",
+    "neighbourhood": "City",
+    "address": "114 Queen Victoria St",
+    "hours": "Opens 7am",
+    "price": "Cafe prices",
+    "notes": "Inside a church, plug sockets, tall-ceilinged room",
+    "source": "theinfatuation.com",
+    "vibes": [
+      "buzzy_social"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": true,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Redemption Roasters (Covent Garden)",
+    "area": "Central",
+    "category": "coffee_shop",
+    "neighbourhood": "Covent Garden",
+    "address": "40 Drury Lane",
+    "hours": "Closes 5:30pm weekdays",
+    "price": "Cafe prices",
+    "notes": "Ample seating, pour-over bar",
+    "source": "theinfatuation.com",
+    "vibes": [
+      "buzzy_social"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Joe & The Juice (Soho)",
+    "area": "Central",
+    "category": "coffee_shop",
+    "neighbourhood": "Soho",
+    "address": "46 Dean St, W1D 4QD",
+    "hours": "~8am-10pm",
+    "price": "Cafe prices",
+    "notes": "Sockets and fast wifi but not ideal for deep work, buzzy",
+    "source": "candaceabroad.com",
+    "vibes": [
+      "buzzy_social"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": true,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "EZ & Moss",
+    "area": "North",
+    "category": "coffee_shop",
+    "neighbourhood": "Holloway Road",
+    "address": "183 Holloway Rd, N7 8LX",
+    "hours": "Mon-Fri 8:30am-3:30pm",
+    "price": "Cafe prices",
+    "notes": "Vegan-focused, dog-friendly, indie local vibe",
+    "source": "candaceabroad.com",
+    "vibes": [
+      "buzzy_social"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "Vagabond",
+    "area": "North",
+    "category": "coffee_shop",
+    "neighbourhood": "Holloway Road",
+    "address": "105 Holloway Rd, N7 8LT",
+    "hours": "Mon-Fri 7:30am-5pm; weekends 9am-6pm",
+    "price": "Cafe prices",
+    "notes": "Explicitly freelancer-friendly community hub",
+    "source": "candaceabroad.com",
+    "vibes": [
+      "buzzy_social"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "St Pauls Islington",
+    "area": "North",
+    "category": "coffee_shop",
+    "neighbourhood": "Highbury East",
+    "address": "274B St Paul's Rd, N1 2LJ",
+    "hours": "Daily 9am-9pm",
+    "price": "Cafe/wine bar prices",
+    "notes": "Cafe doubling as wine bar, all-day menu",
+    "source": "candaceabroad.com",
+    "vibes": [
+      "buzzy_social"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "With Milk",
+    "area": "North",
+    "category": "coffee_shop",
+    "neighbourhood": "Tottenham",
+    "address": "67 Lawrence Rd",
+    "hours": "Closes 4:30pm",
+    "price": "Cafe prices",
+    "notes": "Outdoor terrace, fast wifi",
+    "source": "theinfatuation.com",
+    "vibes": [
+      "buzzy_social",
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Coffee Plant",
+    "area": "West",
+    "category": "coffee_shop",
+    "neighbourhood": "Portobello Road",
+    "address": "180 Portobello Rd, W11 2EB",
+    "hours": "Daily 8am-4pm",
+    "price": "Cafe prices",
+    "notes": "Independent roastery",
+    "source": "candaceabroad.com",
+    "vibes": [
+      "buzzy_social"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Chief Coffee",
+    "area": "West",
+    "category": "coffee_shop",
+    "neighbourhood": "Chiswick",
+    "address": "Turnham Green Terrace Mews, W4 1QU",
+    "hours": "Mon-Fri 8-5:30; Sat 9-6; Sun 10-5:30",
+    "price": "Cafe prices",
+    "notes": "Coffee + arcade + pinball hybrid space",
+    "source": "candaceabroad.com",
+    "vibes": [
+      "buzzy_social"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Artisan Coffee School",
+    "area": "West",
+    "category": "coffee_shop",
+    "neighbourhood": "Ealing",
+    "address": "32 New Broadway, W5 2XA",
+    "hours": "Mon-Fri 8:30-3; weekends 9-4",
+    "price": "Cafe prices",
+    "notes": "Generous plug sockets, wooden tables",
+    "source": "candaceabroad.com",
+    "vibes": [
+      "buzzy_social"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": true,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Greenspeares",
+    "area": "West",
+    "category": "coffee_shop",
+    "neighbourhood": "Chelsea",
+    "address": "23 Walton St, SW3 2HX",
+    "hours": "Mon-Fri 8-4; weekends 9-4",
+    "price": "Cafe prices",
+    "notes": "Fast wifi, two floors, plenty of food options",
+    "source": "candaceabroad.com",
+    "vibes": [
+      "buzzy_social"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Fuckoffee",
+    "area": "South",
+    "category": "coffee_shop",
+    "neighbourhood": "Bermondsey",
+    "address": "167 Bermondsey St, SE1",
+    "hours": "Mon-Sat 7am-6pm; Sun 8am-6pm",
+    "price": "Cafe prices",
+    "notes": "Calm vibe, plenty of sockets",
+    "source": "candaceabroad.com",
+    "vibes": [
+      "buzzy_social",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": true,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Stir Coffee",
+    "area": "South",
+    "category": "coffee_shop",
+    "neighbourhood": "Brixton",
+    "address": "111 Brixton Hill, SW2 1AA",
+    "hours": "Mon-Fri 8-3; weekends 9-3",
+    "price": "Cafe prices",
+    "notes": "Plenty of corners and plugs",
+    "source": "candaceabroad.com",
+    "vibes": [
+      "buzzy_social"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": true,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Peckham Pelican",
+    "area": "South",
+    "category": "coffee_shop",
+    "neighbourhood": "Peckham",
+    "address": "92 Peckham Rd, SE15 5PY",
+    "hours": "Mon 11-4; Tue-Sun 11-10",
+    "price": "Cafe prices (£1 DIY bagels)",
+    "notes": "Art venue/local hangout, natural light, open space",
+    "source": "candaceabroad.com",
+    "vibes": [
+      "buzzy_social"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Lumberjack Cafe",
+    "area": "South",
+    "category": "coffee_shop",
+    "neighbourhood": "Camberwell",
+    "address": "70 Camberwell Church St, SE5 8QZ",
+    "hours": "Mon-Fri 8-4; weekends 9-4",
+    "price": "Cafe prices",
+    "notes": "Artisanal brews, hipster aesthetic, can get noisy/busy",
+    "source": "candaceabroad.com",
+    "vibes": [
+      "buzzy_social"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Ozone Coffee",
+    "area": "East",
+    "category": "coffee_shop",
+    "neighbourhood": "Old Street",
+    "address": "11 Leonard St, EC2A 4AQ",
+    "hours": "Mon-Fri 8-3; weekends 9-3",
+    "price": "Cafe prices",
+    "notes": "Well-known coffee spot, busy at peak times",
+    "source": "candaceabroad.com",
+    "vibes": [
+      "buzzy_social"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Forge & Co.",
+    "area": "East",
+    "category": "coffee_shop",
+    "neighbourhood": "Shoreditch",
+    "address": "154-158 Shoreditch High St, E1 6HU",
+    "hours": "Mon-Fri 8-7",
+    "price": "Cafe prices; desk rental available",
+    "notes": "Officially welcomes laptop workers upstairs, avoid brunch",
+    "source": "candaceabroad.com",
+    "vibes": [
+      "buzzy_social"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "No 42 Coffee Junction",
+    "area": "East",
+    "category": "coffee_shop",
+    "neighbourhood": "Hoxton",
+    "address": "42 Provost St, N1 7SU",
+    "hours": "Mon-Fri 7-4",
+    "price": "Cafe prices",
+    "notes": "Quiet, spacious, 'freelancer's heaven', outdoor meeting area",
+    "source": "candaceabroad.com",
+    "vibes": [
+      "buzzy_social",
+      "meeting_ready",
+      "outdoorsy",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Market Cafe",
+    "area": "East",
+    "category": "coffee_shop",
+    "neighbourhood": "Broadway Market",
+    "address": "2 Broadway Market",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Canal views, good spread of plug sockets",
+    "source": "theinfatuation.com",
+    "vibes": [
+      "buzzy_social"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": true,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Lighthaus",
+    "area": "East",
+    "category": "coffee_shop",
+    "neighbourhood": "Walthamstow",
+    "address": "11 Argall Ave, E10 7QE",
+    "hours": "Mon-Fri 9-4; weekends 10-4",
+    "price": "Cafe prices",
+    "notes": "Airy, greenery, high ceilings, industrial estate hidden gem",
+    "source": "candaceabroad.com",
+    "vibes": [
+      "buzzy_social",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Roastery and Bake Hall (Harrods)",
+    "area": "Central",
+    "category": "coffee_shop",
+    "neighbourhood": "Knightsbridge",
+    "address": "Harrods, Knightsbridge",
+    "hours": "Store hours",
+    "price": "Department-store prices",
+    "notes": "Casual coffee and pastry spot, 200+ pastry products",
+    "source": "londonperfect.com",
+    "vibes": [
+      "buzzy_social"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Fifth-Floor Café & Terrace (Harvey Nichols)",
+    "area": "Central",
+    "category": "coffee_shop",
+    "neighbourhood": "Knightsbridge",
+    "address": "Harvey Nichols, Knightsbridge",
+    "hours": "Store hours",
+    "price": "Department-store prices",
+    "notes": "Casual refuelling spot, sharing platters",
+    "source": "londonperfect.com",
+    "vibes": [
+      "buzzy_social"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Serata Hall",
+    "area": "East",
+    "category": "bistro",
+    "neighbourhood": "Old Street",
+    "address": "207 Old Street, EC1V 9NR",
+    "hours": "check hours",
+    "price": "Hot-desking passes from £10/day incl bottomless coffee/tea",
+    "notes": "All-day dining, industrial features, buzzy atmosphere, meeting-friendly hot desk",
+    "source": "thehandbook.com",
+    "vibes": [
+      "buzzy_social",
+      "meeting_ready",
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Bluebird Café",
+    "area": "West",
+    "category": "bistro",
+    "neighbourhood": "Chelsea",
+    "address": "350 King's Rd, SW3 5UU",
+    "hours": "check hours",
+    "price": "Restaurant prices",
+    "notes": "Bold colours, foliage-filled spaces designed for remote workers",
+    "source": "thehandbook.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Cocotte",
+    "area": "Multiple",
+    "category": "bistro",
+    "neighbourhood": "multiple locations",
+    "address": "multiple",
+    "hours": "check hours",
+    "price": "Affordable lunch deals (~£13-14)",
+    "notes": "Farm-to-table chicken rotisserie, healthy homemade dishes",
+    "source": "thehandbook.com",
+    "vibes": [
+      "cheap_long_stay",
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Riding House Café",
+    "area": "Central",
+    "category": "bistro",
+    "neighbourhood": "Fitzrovia",
+    "address": "43-51 Great Titchfield St, W1W 7PQ",
+    "hours": "check hours",
+    "price": "Restaurant prices",
+    "notes": "Cosy booths, three-course lunches, media clientele",
+    "source": "thehandbook.com",
+    "vibes": [
+      "meeting_ready",
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Brother Marcus",
+    "area": "East",
+    "category": "bistro",
+    "neighbourhood": "Spitalfields",
+    "address": "multiple locations",
+    "hours": "check hours",
+    "price": "Restaurant prices",
+    "notes": "On-trend interiors, plant-filled spaces",
+    "source": "thehandbook.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Coppa Club Putney",
+    "area": "West",
+    "category": "bistro",
+    "neighbourhood": "Putney",
+    "address": "29 Brewhouse Ln, SW15 2JX",
+    "hours": "check hours",
+    "price": "Restaurant prices",
+    "notes": "Riverside terrace, private igloos, quiet corners",
+    "source": "thehandbook.com",
+    "vibes": [
+      "meeting_ready",
+      "outdoorsy",
+      "pretty_aesthetic",
+      "quiet_focused",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Café Van Gogh",
+    "area": "South",
+    "category": "bistro",
+    "neighbourhood": "Brixton",
+    "address": "88 Brixton Rd, SW9 6BE",
+    "hours": "check hours",
+    "price": "Cafe/restaurant prices",
+    "notes": "Starry Night-inspired ceiling, community-focused, plant-based menu",
+    "source": "thehandbook.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Rake's Café Bar",
+    "area": "Central",
+    "category": "bistro",
+    "neighbourhood": "Liverpool Street",
+    "address": "40 Liverpool St, EC2M 7QN",
+    "hours": "check hours",
+    "price": "Restaurant prices",
+    "notes": "Home-baked pastries, small plates, artisan coffee, cocktails",
+    "source": "thehandbook.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Megan's",
+    "area": "Multiple",
+    "category": "bistro",
+    "neighbourhood": "multiple locations",
+    "address": "multiple",
+    "hours": "check hours",
+    "price": "Restaurant prices",
+    "notes": "Explicitly welcomes all-day working, Mediterranean dishes",
+    "source": "thehandbook.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "St Pancras Brasserie by Searcys",
+    "area": "Central",
+    "category": "bistro",
+    "neighbourhood": "King's Cross",
+    "address": "St Pancras International, N1C 4QL",
+    "hours": "check hours",
+    "price": "Restaurant prices",
+    "notes": "Charging points, complimentary high-speed wifi, all-day dining",
+    "source": "thehandbook.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": true,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Dean Street Townhouse",
+    "area": "Central",
+    "category": "bistro",
+    "neighbourhood": "Soho",
+    "address": "69-71 Dean St, W1D 3SE",
+    "hours": "check hours",
+    "price": "Restaurant prices",
+    "notes": "Soho House group, writers/creatives crowd, strong coffee focus",
+    "source": "thehandbook.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Mare Street Market",
+    "area": "East",
+    "category": "bistro",
+    "neighbourhood": "East London",
+    "address": "117 Mare St, E8 4RU",
+    "hours": "check hours",
+    "price": "Restaurant/food hall prices",
+    "notes": "1950s office conversion, wifi and plug sockets, brunch",
+    "source": "thehandbook.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": true,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Straits Bar",
+    "area": "Central",
+    "category": "bistro",
+    "neighbourhood": "Liverpool Street",
+    "address": "80 Houndsditch, EC3A 7AB",
+    "hours": "check hours",
+    "price": "Premium/luxury pricing",
+    "notes": "Pan Pacific hotel, floor-to-ceiling windows, most luxurious remote setup",
+    "source": "thehandbook.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Caravan (multiple)",
+    "area": "Multiple",
+    "category": "bistro",
+    "neighbourhood": "multiple venues",
+    "address": "multiple",
+    "hours": "varies",
+    "price": "Restaurant prices",
+    "notes": "Small plates, sourdough pizzas, industrial interiors, casual",
+    "source": "thehandbook.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Hithe + Seek",
+    "area": "Central",
+    "category": "bistro",
+    "neighbourhood": "City",
+    "address": "60 Upper Thames St, EC4V 3AD (The Westin)",
+    "hours": "check hours",
+    "price": "Restaurant/wine bar prices",
+    "notes": "Thames, Bankside, Shakespeare's Globe views",
+    "source": "thehandbook.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "German Gymnasium",
+    "area": "Central",
+    "category": "bistro",
+    "neighbourhood": "King's Cross",
+    "address": "1 King's Blvd, N1C 4BU",
+    "hours": "check hours",
+    "price": "Restaurant prices",
+    "notes": "Grade II listed 1866 building, sophisticated, outdoor terrace",
+    "source": "thehandbook.com",
+    "vibes": [
+      "outdoorsy",
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Kindred",
+    "area": "West",
+    "category": "bistro",
+    "neighbourhood": "Hammersmith",
+    "address": "Bradmore House, Queen Caroline St, W6 9BW",
+    "hours": "check hours",
+    "price": "Restaurant prices",
+    "notes": "Dog-friendly, networking events, seasonal menus",
+    "source": "thehandbook.com",
+    "vibes": [
+      "meeting_ready",
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "Smith's Bar & Grill",
+    "area": "West",
+    "category": "bistro",
+    "neighbourhood": "Paddington",
+    "address": "25 Sheldon Square, W2 6EY",
+    "hours": "check hours",
+    "price": "Restaurant prices",
+    "notes": "Free high-speed wifi and plug points, hanging plants",
+    "source": "thehandbook.com",
+    "vibes": [
+      "cheap_long_stay",
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": true,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Grind (multiple)",
+    "area": "Multiple",
+    "category": "bistro",
+    "neighbourhood": "multiple venues",
+    "address": "multiple",
+    "hours": "varies",
+    "price": "Cafe/restaurant prices",
+    "notes": "Instagrammable interiors, coffee-forward, cocktails available",
+    "source": "thehandbook.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Soak",
+    "area": "Central",
+    "category": "bistro",
+    "neighbourhood": "Victoria",
+    "address": "Terminus Pl, SW1W 0RP",
+    "hours": "check hours",
+    "price": "Restaurant prices",
+    "notes": "Plush, relaxing, near Victoria Station",
+    "source": "thehandbook.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Book Club",
+    "area": "East",
+    "category": "bistro",
+    "neighbourhood": "Shoreditch",
+    "address": "100-106 Leonard Street, EC2A 4RH",
+    "hours": "check hours",
+    "price": "Restaurant/bar prices",
+    "notes": "Victorian warehouse conversion, all-day dining, rotating exhibitions",
+    "source": "thehandbook.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Drake & Morgan",
+    "area": "Central",
+    "category": "bistro",
+    "neighbourhood": "King's Cross + others",
+    "address": "multiple",
+    "hours": "check hours",
+    "price": "Restaurant prices",
+    "notes": "Restaurant-grade menu, work-friendly",
+    "source": "thehandbook.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Skylight",
+    "area": "Multiple",
+    "category": "bistro",
+    "neighbourhood": "Peckham / Tobacco Dock",
+    "address": "multiple",
+    "hours": "Weekday coworking hours",
+    "price": "Coworking + cafe prices",
+    "notes": "Weekday coworking with coffee and small plates, rooftop access",
+    "source": "thehandbook.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Galvin Demoiselle at The Conservatory (Harrods)",
+    "area": "Central",
+    "category": "bistro",
+    "neighbourhood": "Knightsbridge",
+    "address": "Harrods, Knightsbridge",
+    "hours": "Store hours",
+    "price": "Fine dining prices",
+    "notes": "Light, breezy French restaurant, striking views",
+    "source": "londonperfect.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Arthur's (Liberty)",
+    "area": "Central",
+    "category": "bistro",
+    "neighbourhood": "Great Marlborough Street",
+    "address": "Liberty, Great Marlborough St",
+    "hours": "Store hours",
+    "price": "Fine dining prices",
+    "notes": "Art Deco-style restaurant, escape from shopping crowds",
+    "source": "londonperfect.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Wallpaper* Bar (Harvey Nichols)",
+    "area": "Central",
+    "category": "bistro",
+    "neighbourhood": "Knightsbridge",
+    "address": "Harvey Nichols, Knightsbridge",
+    "hours": "Store hours",
+    "price": "Cocktail bar prices",
+    "notes": "Trendy, styled like a glossy magazine",
+    "source": "londonperfect.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Aubaine (Selfridges)",
+    "area": "Central",
+    "category": "bistro",
+    "neighbourhood": "Oxford Street",
+    "address": "Selfridges, Oxford St",
+    "hours": "Store hours",
+    "price": "Bistro prices",
+    "notes": "Chic French bistro, great for people-watching",
+    "source": "londonperfect.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Caviar House & Prunier (Selfridges)",
+    "area": "Central",
+    "category": "bistro",
+    "neighbourhood": "Oxford Street",
+    "address": "Selfridges, Oxford St",
+    "hours": "Store hours",
+    "price": "Premium seafood prices",
+    "notes": "Upscale seafood destination",
+    "source": "londonperfect.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "45 Jermyn St. (Fortnum & Mason)",
+    "area": "Central",
+    "category": "bistro",
+    "neighbourhood": "Jermyn Street",
+    "address": "Fortnum & Mason, Jermyn St",
+    "hours": "Store hours",
+    "price": "Fine dining prices",
+    "notes": "Glamorous dining, roving caviar trolley",
+    "source": "londonperfect.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Champagne Bar (Harrods)",
+    "area": "Central",
+    "category": "bistro",
+    "neighbourhood": "Knightsbridge",
+    "address": "Harrods, Knightsbridge",
+    "hours": "Store hours",
+    "price": "Champagne bar prices",
+    "notes": "Sophisticated fizz bar",
+    "source": "londonperfect.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Smugglers Tavern",
+    "area": "Central",
+    "category": "pub",
+    "neighbourhood": "Fitzrovia",
+    "address": "check address",
+    "hours": "Mon-Fri 12pm-11pm",
+    "price": "Pub prices",
+    "notes": "Georgian interior, casual, background music, wifi, dog-friendly",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "The Queens Head",
+    "area": "Central",
+    "category": "pub",
+    "neighbourhood": "Piccadilly",
+    "address": "check address",
+    "hours": "Mon-Fri 11am-11:30pm (Fri to 12am)",
+    "price": "Pub prices",
+    "notes": "Victorian features, wifi, no food currently",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": false,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Alpaca",
+    "area": "North",
+    "category": "pub",
+    "neighbourhood": "Islington",
+    "address": "check address",
+    "hours": "Mon-Fri 12pm-11pm",
+    "price": "Pub prices",
+    "notes": "Relaxed and inclusive, wooden flooring, wifi, dog-friendly",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "The Hanbury",
+    "area": "North",
+    "category": "pub",
+    "neighbourhood": "Islington",
+    "address": "check address",
+    "hours": "Mon-Fri 12pm-11pm",
+    "price": "Pub prices",
+    "notes": "STANDOUT: dedicated co-working space Mon-Fri, lots of power sockets, strong wifi, great lighting, print facilities, dog-friendly",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": true,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "The Birdcage",
+    "area": "North",
+    "category": "pub",
+    "neighbourhood": "Stoke Newington",
+    "address": "check address",
+    "hours": "Mon-Wed to 10:30pm; Thu-Fri to 11pm",
+    "price": "Pub prices",
+    "notes": "Big windows, natural light, free wifi, dog-friendly",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "The Hercules",
+    "area": "North",
+    "category": "pub",
+    "neighbourhood": "Holloway",
+    "address": "check address",
+    "hours": "Mon-Fri 11am-11pm (Fri to 1am)",
+    "price": "Pub prices",
+    "notes": "Comfortable, free wifi, breakfast/brunch and lunch options",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Space Bar",
+    "area": "East",
+    "category": "pub",
+    "neighbourhood": "Isle of Dogs",
+    "address": "check address",
+    "hours": "Fri 12pm-12am (Mon-Fri 5pm-11pm)",
+    "price": "Pub prices",
+    "notes": "Atmospheric, intimate, high-speed wifi",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Angel of Bow",
+    "area": "East",
+    "category": "pub",
+    "neighbourhood": "Bow",
+    "address": "check address",
+    "hours": "Tue 2pm-11pm; Wed-Thu 4pm-11pm; Fri 12pm-12am",
+    "price": "Pub prices",
+    "notes": "Eclectic, laptop-friendly, free wifi (50+ Mbps), electrical adapters provided",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Royal Oak",
+    "area": "East",
+    "category": "pub",
+    "neighbourhood": "Highams Park",
+    "address": "check address",
+    "hours": "Mon-Fri 11am-11pm (Fri to 12pm)",
+    "price": "Pub prices",
+    "notes": "Welcoming, vibrant beer garden, wifi, dog-friendly",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay",
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "The Queen's Head (Limehouse)",
+    "area": "East",
+    "category": "pub",
+    "neighbourhood": "Limehouse",
+    "address": "check address",
+    "hours": "Mon-Thu 12pm-11:30pm (Fri to 12am)",
+    "price": "Pub prices",
+    "notes": "Historic East End atmosphere, wifi, dog-friendly",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "The Bow Bells",
+    "area": "East",
+    "category": "pub",
+    "neighbourhood": "Bow",
+    "address": "check address",
+    "hours": "Mon-Thu 12pm-12am (Fri to 1am)",
+    "price": "Pub prices",
+    "notes": "Proper East End boozer, wifi, pool table",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Crown and Shuttle",
+    "area": "East",
+    "category": "pub",
+    "neighbourhood": "Shoreditch",
+    "address": "check address",
+    "hours": "Mon-Fri 12pm-11pm (Fri to 1am)",
+    "price": "Pub prices",
+    "notes": "Shoreditch institution, wifi, heated beer garden, dog-friendly",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay",
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "The Crown (Hackney)",
+    "area": "East",
+    "category": "pub",
+    "neighbourhood": "Hackney",
+    "address": "check address",
+    "hours": "Mon-Fri 11am-11pm (Fri to 12am)",
+    "price": "Pub prices",
+    "notes": "Cosy, intimate, wifi, tiny beer garden, dog-friendly",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay",
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "The Kings Arms",
+    "area": "South",
+    "category": "pub",
+    "neighbourhood": "Tooley Street",
+    "address": "check address",
+    "hours": "Mon-Fri 12pm-11pm (Mon from 4pm)",
+    "price": "Pub prices",
+    "notes": "Changing art exhibitions, free wifi in all public areas, dog-friendly",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "Lord Nelson",
+    "area": "South",
+    "category": "pub",
+    "neighbourhood": "Southwark",
+    "address": "check address",
+    "hours": "Tue-Fri 12pm-11pm (Mon & Fri from 4pm)",
+    "price": "Pub prices",
+    "notes": "Quirky, quieter weekday afternoons, famous burgers, wifi, dog-friendly",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "The Rising",
+    "area": "South",
+    "category": "pub",
+    "neighbourhood": "Elephant and Castle",
+    "address": "check address",
+    "hours": "Mon-Fri 12pm-11pm (Thu-Fri to 1am)",
+    "price": "Pub prices",
+    "notes": "STANDOUT: calm during day, plenty of power sockets, free Americano refills noon-5pm",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": true,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Shirker's Rest",
+    "area": "South",
+    "category": "pub",
+    "neighbourhood": "New Cross",
+    "address": "check address",
+    "hours": "Tue-Fri 3pm-12am",
+    "price": "Pub prices",
+    "notes": "Relaxed, serene upstairs, comfy chairs, free wifi, dog-friendly",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "The Dog and Bell",
+    "area": "South",
+    "category": "pub",
+    "neighbourhood": "Deptford",
+    "address": "check address",
+    "hours": "Mon-Fri 11am-12am (Fri to 1am)",
+    "price": "Pub prices",
+    "notes": "Homely, quiet daytime, roaring fire, beer garden",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay",
+      "outdoorsy",
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Waverley Arms",
+    "area": "South",
+    "category": "pub",
+    "neighbourhood": "Nunhead",
+    "address": "check address",
+    "hours": "Mon-Tue & Wed-Fri 4pm-11pm",
+    "price": "Pub prices",
+    "notes": "Explicitly invites use as office space, vibrant community pub, dog-friendly",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "The Ship",
+    "area": "South",
+    "category": "pub",
+    "neighbourhood": "Borough",
+    "address": "check address",
+    "hours": "Mon-Fri 12pm-11pm (Fri to 12am)",
+    "price": "Pub prices",
+    "notes": "Free wifi and plug sockets, fantastic beer garden",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay",
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": true,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Bricklayers Arms",
+    "area": "West",
+    "category": "pub",
+    "neighbourhood": "Putney",
+    "address": "check address",
+    "hours": "Mon-Fri 2pm-11pm (Fri from 12pm)",
+    "price": "Pub prices",
+    "notes": "Traditional, cosy fireplace, free wifi, dog-friendly, beer garden",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay",
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "The Windmill",
+    "area": "South",
+    "category": "pub",
+    "neighbourhood": "Lambeth",
+    "address": "check address",
+    "hours": "Mon-Fri 11:30am-11pm",
+    "price": "Pub prices",
+    "notes": "Hidden gem, quiet street, historic atmosphere, wifi, dog-friendly",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "The Duchess",
+    "area": "West",
+    "category": "pub",
+    "neighbourhood": "Hammersmith",
+    "address": "check address",
+    "hours": "Mon-Thu 12pm-11pm (Fri to 12am)",
+    "price": "Pub prices",
+    "notes": "Warm, welcoming, calm daytime, wifi, dog-friendly",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "The Hansom Cab",
+    "area": "West",
+    "category": "pub",
+    "neighbourhood": "Kensington",
+    "address": "check address",
+    "hours": "Mon-Fri 12pm-11pm",
+    "price": "Pub prices",
+    "notes": "Stylish, friendly, off the beaten path, wifi, dog-friendly",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "The Askew",
+    "area": "West",
+    "category": "pub",
+    "neighbourhood": "Shepherd's Bush",
+    "address": "check address",
+    "hours": "Tue-Fri 12pm-11pm",
+    "price": "Pub prices",
+    "notes": "Charming, warm rustic atmosphere, fish and chips",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Old Hat",
+    "area": "West",
+    "category": "pub",
+    "neighbourhood": "Ealing",
+    "address": "check address",
+    "hours": "Tue-Fri 11am-10:45pm (Fri to 12:45am)",
+    "price": "Pub prices",
+    "notes": "Rustic wooden panels, cosy, wifi, dog-friendly, lamb stew",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "The Fox",
+    "area": "West",
+    "category": "pub",
+    "neighbourhood": "Hanwell",
+    "address": "check address",
+    "hours": "Mon-Fri 12pm-11pm (Fri to 12am)",
+    "price": "Pub prices",
+    "notes": "Former Royal Brewery House, canal-side, wifi, dog-friendly, beer garden",
+    "source": "citystack.co",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay",
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": true,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "eOffice Soho HQ",
+    "area": "Central",
+    "category": "coworking_paid",
+    "neighbourhood": "Soho",
+    "address": "1 Richmond Mews, W1D 3DA",
+    "hours": "Business hours",
+    "price": "Day pass ~£40-45 (verify)",
+    "notes": "Central Soho coworking with day-pass access",
+    "source": "onecoworking.com",
+    "vibes": [
+      "meeting_ready"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Uncommon Liverpool Street",
+    "area": "Central",
+    "category": "coworking_paid",
+    "neighbourhood": "Liverpool Street",
+    "address": "34-37 Liverpool Street, EC2M 7PP",
+    "hours": "Business hours",
+    "price": "Day pass ~£50-58 (verify)",
+    "notes": "City-edge coworking, premium fit-out",
+    "source": "onecoworking.com",
+    "vibes": [
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Uncommon Fulham",
+    "area": "West",
+    "category": "coworking_paid",
+    "neighbourhood": "Fulham",
+    "address": "126 New King's Road, SW6 4LZ",
+    "hours": "Business hours",
+    "price": "Day pass ~£40-46 (verify)",
+    "notes": "Premium coworking chain",
+    "source": "onecoworking.com",
+    "vibes": [
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Uncommon Highbury & Islington",
+    "area": "North",
+    "category": "coworking_paid",
+    "neighbourhood": "Highbury & Islington",
+    "address": "check address",
+    "hours": "Business hours",
+    "price": "Day pass £50-80 (chain range)",
+    "notes": "Premium coworking chain",
+    "source": "mindspace.me",
+    "vibes": [
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Uncommon Holborn",
+    "area": "Central",
+    "category": "coworking_paid",
+    "neighbourhood": "Holborn",
+    "address": "check address",
+    "hours": "Business hours",
+    "price": "Day pass £50-80 (chain range)",
+    "notes": "Premium coworking chain",
+    "source": "mindspace.me",
+    "vibes": [
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Uncommon Borough",
+    "area": "South",
+    "category": "coworking_paid",
+    "neighbourhood": "Borough",
+    "address": "check address",
+    "hours": "Business hours",
+    "price": "Day pass £50-80 (chain range)",
+    "notes": "Premium coworking chain",
+    "source": "mindspace.me",
+    "vibes": [
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Clockwise Wood Green",
+    "area": "North",
+    "category": "coworking_paid",
+    "neighbourhood": "Wood Green",
+    "address": "50 Station Road, N22 7DE",
+    "hours": "Business hours",
+    "price": "Day pass ~£25-29",
+    "notes": "Budget-friendly coworking",
+    "source": "onecoworking.com",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Clockwise Old Town Hall, Bromley",
+    "area": "South",
+    "category": "coworking_paid",
+    "neighbourhood": "Bromley",
+    "address": "30 Tweedy Road, BR1 3FE",
+    "hours": "Business hours",
+    "price": "Day pass ~£25",
+    "notes": "Budget-friendly, outer south-east London",
+    "source": "onecoworking.com",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Mindspace Shoreditch/Liverpool Street",
+    "area": "East",
+    "category": "coworking_paid",
+    "neighbourhood": "Shoreditch",
+    "address": "9 Appold Street, EC2A 2AP",
+    "hours": "Business hours",
+    "price": "Day pass - price not listed, verify",
+    "notes": "Premium coworking brand",
+    "source": "mindspace.me",
+    "vibes": [
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Mindspace Old Street",
+    "area": "East",
+    "category": "coworking_paid",
+    "neighbourhood": "Old Street",
+    "address": "142-146 Old Street",
+    "hours": "Business hours",
+    "price": "Day pass - price not listed, verify",
+    "notes": "Premium coworking brand",
+    "source": "mindspace.me",
+    "vibes": [
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Work.Life Soho",
+    "area": "Central",
+    "category": "coworking_paid",
+    "neighbourhood": "Soho",
+    "address": "check address",
+    "hours": "Business hours",
+    "price": "£4/hour or day pass £35-65",
+    "notes": "Popular flexible coworking chain",
+    "source": "mindspace.me",
+    "vibes": [
+      "meeting_ready"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Work.Life Old Street",
+    "area": "East",
+    "category": "coworking_paid",
+    "neighbourhood": "Old Street",
+    "address": "check address",
+    "hours": "Business hours",
+    "price": "£4/hour or day pass £35-65",
+    "notes": "Popular flexible coworking chain",
+    "source": "mindspace.me",
+    "vibes": [
+      "meeting_ready"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Work.Life Borough",
+    "area": "South",
+    "category": "coworking_paid",
+    "neighbourhood": "Borough",
+    "address": "check address",
+    "hours": "Business hours",
+    "price": "£4/hour or day pass £35-65",
+    "notes": "Popular flexible coworking chain",
+    "source": "mindspace.me",
+    "vibes": [
+      "meeting_ready"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Work.Life Camden",
+    "area": "North",
+    "category": "coworking_paid",
+    "neighbourhood": "Camden",
+    "address": "check address",
+    "hours": "Business hours",
+    "price": "£4/hour or day pass £35-65",
+    "notes": "Popular flexible coworking chain",
+    "source": "mindspace.me",
+    "vibes": [
+      "meeting_ready"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Huckletree Shoreditch",
+    "area": "East",
+    "category": "coworking_paid",
+    "neighbourhood": "Shoreditch",
+    "address": "check address",
+    "hours": "Business hours",
+    "price": "Day pass - price not listed, verify",
+    "notes": "Design-led coworking chain",
+    "source": "mindspace.me",
+    "vibes": [
+      "meeting_ready"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Huckletree Westminster",
+    "area": "Central",
+    "category": "coworking_paid",
+    "neighbourhood": "Westminster",
+    "address": "1 Horse Guards Avenue",
+    "hours": "Business hours",
+    "price": "Day pass - price not listed, verify",
+    "notes": "Design-led coworking chain",
+    "source": "mindspace.me",
+    "vibes": [
+      "meeting_ready"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Huckletree White City",
+    "area": "West",
+    "category": "coworking_paid",
+    "neighbourhood": "White City",
+    "address": "check address",
+    "hours": "Business hours",
+    "price": "Day pass - price not listed, verify",
+    "notes": "Design-led coworking chain",
+    "source": "mindspace.me",
+    "vibes": [
+      "meeting_ready"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "FORA Farringdon",
+    "area": "Central",
+    "category": "coworking_paid",
+    "neighbourhood": "Farringdon",
+    "address": "Chancery House",
+    "hours": "Business hours",
+    "price": "Day pass - price not listed, verify",
+    "notes": "Design-led premium coworking chain",
+    "source": "mindspace.me",
+    "vibes": [
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "FORA Fitzrovia",
+    "area": "Central",
+    "category": "coworking_paid",
+    "neighbourhood": "Fitzrovia",
+    "address": "Douglas House",
+    "hours": "Business hours",
+    "price": "Day pass - price not listed, verify",
+    "notes": "Design-led premium coworking chain",
+    "source": "mindspace.me",
+    "vibes": [
+      "meeting_ready",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Ministry",
+    "area": "South",
+    "category": "coworking_paid",
+    "neighbourhood": "Borough",
+    "address": "Borough Road",
+    "hours": "Business hours",
+    "price": "Day pass - price not listed, verify",
+    "notes": "South London coworking",
+    "source": "mindspace.me",
+    "vibes": [
+      "meeting_ready"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": null,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "British Library",
+    "area": "Central",
+    "category": "library",
+    "neighbourhood": "King's Cross",
+    "address": "Euston Road, NW1 2DB",
+    "hours": "Mon-Thu 9:30am-8pm; Fri 9:30am-6pm; Sat 9:30am-5pm; Sun 11am-5pm",
+    "price": "Free (public spaces)",
+    "notes": "Iconic, big open desks, gets busy, no food inside reading rooms",
+    "source": "timeout.com",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": false,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Barbican Library",
+    "area": "Central",
+    "category": "library",
+    "neighbourhood": "Barbican",
+    "address": "Beech Street, EC2Y 8AE",
+    "hours": "Mon 9:30-5:30; Tue/Thu 9:30-7:30; Wed/Fri 9:30-5:30; Sat 9:30-4",
+    "price": "Free (photo ID + bill for membership)",
+    "notes": "Calm, arts-adjacent",
+    "source": "timeout.com",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": false,
+      "coffee": false,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Senate House Library",
+    "area": "Central",
+    "category": "library",
+    "neighbourhood": "Bloomsbury",
+    "address": "Malet St, WC1E 7HU",
+    "hours": "Mon-Fri 9am-11pm; Sat/Sun 9:45am-9pm",
+    "price": "£5 day ticket or £130/yr",
+    "notes": "Long hours, good for late sessions",
+    "source": "timeout.com",
+    "vibes": [
+      "quiet_focused",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": false,
+      "coffee": false,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Wellcome Library",
+    "area": "Central",
+    "category": "library",
+    "neighbourhood": "Euston",
+    "address": "183 Euston Road, NW1 2BE",
+    "hours": "Mon-Wed 10-6; Thu 10-8; Fri 10-6; Sat 10-4",
+    "price": "Free (membership: photo ID + bill)",
+    "notes": "Calm reading room",
+    "source": "timeout.com",
+    "vibes": [
+      "cheap_long_stay",
+      "meeting_ready",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": false,
+      "coffee": false,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "National Poetry Library",
+    "area": "Central",
+    "category": "library",
+    "neighbourhood": "South Bank",
+    "address": "Royal Festival Hall, Belvedere Rd, SE1 8XX",
+    "hours": "Tue 12-6pm; Wed-Sun 12-8pm",
+    "price": "Free",
+    "notes": "Quiet reading room inside Southbank Centre",
+    "source": "timeout.com",
+    "vibes": [
+      "cheap_long_stay",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": false,
+      "coffee": false,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Reuben Library (BFI)",
+    "area": "Central",
+    "category": "library",
+    "neighbourhood": "South Bank",
+    "address": "Belvedere Road, SE1 8XT",
+    "hours": "Tue-Sat 11am-7pm",
+    "price": "Free / pre-booked sessions",
+    "notes": "Film-focused reading room",
+    "source": "timeout.com",
+    "vibes": [
+      "cheap_long_stay",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": false,
+      "coffee": false,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Bethnal Green Library",
+    "area": "East",
+    "category": "library",
+    "neighbourhood": "Bethnal Green",
+    "address": "Cambridge Heath Road, E2 0HL",
+    "hours": "Mon-Wed 10am-6pm; Thu 10am-8pm; Sat 9am-5pm",
+    "price": "Free (photo ID + bill)",
+    "notes": "Local public library",
+    "source": "timeout.com",
+    "vibes": [
+      "cheap_long_stay",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": false,
+      "coffee": false,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Canada Water Library",
+    "area": "South",
+    "category": "library",
+    "neighbourhood": "Canada Water",
+    "address": "21 Surrey Quays Road, SE16 7AR",
+    "hours": "Mon-Fri 8am-8pm; Sat 9am-5pm; Sun 12-4pm",
+    "price": "Free (photo ID + bill)",
+    "notes": "Modern riverside library, long weekday hours",
+    "source": "timeout.com",
+    "vibes": [
+      "cheap_long_stay",
+      "outdoorsy",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": false,
+      "coffee": false,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Peckham Library",
+    "area": "South",
+    "category": "library",
+    "neighbourhood": "Peckham",
+    "address": "122 Peckham Hill Street, SE15 5JR",
+    "hours": "Mon/Tue/Thu/Fri 9am-8pm; Wed 10am-8pm; Sat 10am-5pm; Sun 12-4pm",
+    "price": "Free",
+    "notes": "Striking architecture, long hours",
+    "source": "timeout.com",
+    "vibes": [
+      "cheap_long_stay",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": false,
+      "coffee": false,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "West Greenwich Library",
+    "area": "South",
+    "category": "library",
+    "neighbourhood": "Greenwich",
+    "address": "146 Greenwich High Road, SE10 8NN",
+    "hours": "check current hours",
+    "price": "Free",
+    "notes": "Local library",
+    "source": "timeout.com",
+    "vibes": [
+      "cheap_long_stay",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": false,
+      "coffee": false,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Swiss Cottage Central Library",
+    "area": "North",
+    "category": "library",
+    "neighbourhood": "Swiss Cottage",
+    "address": "88 Avenue Road, NW3 3HA",
+    "hours": "Mon-Thu 10-8; Fri-Sat 10-5",
+    "price": "Free (photo ID + bill)",
+    "notes": "Modern public library",
+    "source": "timeout.com",
+    "vibes": [
+      "cheap_long_stay",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": false,
+      "coffee": false,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Kensington Central Library",
+    "area": "West",
+    "category": "library",
+    "neighbourhood": "Kensington",
+    "address": "12 Phillimore Walk, W8 7RX",
+    "hours": "Mon/Tue/Thu 9:30-8; Wed 10-5; Fri/Sat 9:30-5",
+    "price": "Free (photo ID + bill)",
+    "notes": "Local library",
+    "source": "citystack.co",
+    "vibes": [
+      "cheap_long_stay",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": false,
+      "coffee": false,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The London Library",
+    "area": "Central",
+    "category": "library",
+    "neighbourhood": "St James's",
+    "address": "14 St James's Square, SW1Y 4LG",
+    "hours": "Mon-Tue 9:30-9; Wed-Sat 9:30-5:30",
+    "price": "Subscription £575/yr or £287.50 (16-29)",
+    "notes": "NOT casual drop-in - annual membership required, beautiful reading rooms, very quiet",
+    "source": "timeout.com",
+    "vibes": [
+      "meeting_ready",
+      "quiet_focused",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": false,
+      "coffee": false,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "V&A Café",
+    "area": "West",
+    "category": "museum_gallery",
+    "neighbourhood": "South Kensington",
+    "address": "Cromwell Road, SW7 2RL",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Historic (opened 1856), ornate refreshment rooms, grand prints and ceramic tiles",
+    "source": "foodism.co.uk",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Tate Modern L9 Restaurant",
+    "area": "South",
+    "category": "museum_gallery",
+    "neighbourhood": "South Bank",
+    "address": "SE1 9TG",
+    "hours": "check hours",
+    "price": "Restaurant prices",
+    "notes": "Exhibition-inspired seasonal menus",
+    "source": "foodism.co.uk",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Design Museum - Parabola",
+    "area": "West",
+    "category": "museum_gallery",
+    "neighbourhood": "Kensington",
+    "address": "224-238 Kensington High Street, W8 6AG",
+    "hours": "check hours",
+    "price": "Restaurant prices",
+    "notes": "Polished, elegant, all-day venue with Holland Park views",
+    "source": "foodism.co.uk",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Garden Museum Café",
+    "area": "South",
+    "category": "museum_gallery",
+    "neighbourhood": "Lambeth",
+    "address": "5 Lambeth Palace Road, SE1 7LB",
+    "hours": "check hours",
+    "price": "Cafe/restaurant prices",
+    "notes": "Hyper-seasonal daily menu, refined contemporary space, leafy setting",
+    "source": "foodism.co.uk",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "National Gallery - National Dining Rooms",
+    "area": "Central",
+    "category": "museum_gallery",
+    "neighbourhood": "Trafalgar Square",
+    "address": "check address",
+    "hours": "check hours",
+    "price": "Restaurant prices",
+    "notes": "Museum restaurant, central location",
+    "source": "foodism.co.uk",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "British Museum - The Great Court",
+    "area": "Central",
+    "category": "museum_gallery",
+    "neighbourhood": "Bloomsbury",
+    "address": "44 Great Russell St, WC1B 3DG",
+    "hours": "check hours",
+    "price": "Free entry to Great Court; cafe prices for food",
+    "notes": "Vast glass-roofed courtyard, public seating, can be busy with tourists",
+    "source": "foodism.co.uk",
+    "vibes": [
+      "buzzy_social",
+      "cheap_long_stay",
+      "outdoorsy",
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Rochelle Canteen at the ICA",
+    "area": "Central",
+    "category": "museum_gallery",
+    "neighbourhood": "St James's",
+    "address": "The Mall, SW1Y 5AH",
+    "hours": "check hours",
+    "price": "Restaurant prices",
+    "notes": "Unfussy British cuisine inside the ICA",
+    "source": "foodism.co.uk",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Newport Street Gallery - Pharmacy 2",
+    "area": "South",
+    "category": "museum_gallery",
+    "neighbourhood": "Vauxhall",
+    "address": "SE11 6AJ",
+    "hours": "check hours",
+    "price": "Restaurant prices",
+    "notes": "Eclectic, artistic, colourful space, seasonal British-European fare",
+    "source": "foodism.co.uk",
+    "vibes": [
+      "pretty_aesthetic",
+      "treat_day_fancy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Bloomsbury Square Gardens",
+    "area": "Central",
+    "category": "garden_square",
+    "neighbourhood": "Bloomsbury",
+    "address": "check address",
+    "hours": "Daylight hours, public",
+    "price": "Free",
+    "notes": "Peaceful communal green space open to the public",
+    "source": "walks.com",
+    "vibes": [
+      "cheap_long_stay",
+      "outdoorsy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": false,
+      "coffee": false,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Cavendish Square Gardens",
+    "area": "Central",
+    "category": "garden_square",
+    "neighbourhood": "Marylebone",
+    "address": "check address",
+    "hours": "Daylight hours, public",
+    "price": "Free",
+    "notes": "Public square near Oxford Street and Regent's Park",
+    "source": "walks.com",
+    "vibes": [
+      "cheap_long_stay",
+      "outdoorsy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": false,
+      "coffee": false,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Bedford Square Gardens",
+    "area": "Central",
+    "category": "garden_square",
+    "neighbourhood": "Bloomsbury",
+    "address": "check address",
+    "hours": "Daylight hours, public",
+    "price": "Free",
+    "notes": "Only London garden square designed as a coherent whole",
+    "source": "walks.com",
+    "vibes": [
+      "cheap_long_stay",
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": false,
+      "coffee": false,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Trinity Church Square",
+    "area": "South",
+    "category": "garden_square",
+    "neighbourhood": "Southwark",
+    "address": "check address",
+    "hours": "Daylight hours, public",
+    "price": "Free",
+    "notes": "Unexpected quiet find behind Borough High Street",
+    "source": "walks.com",
+    "vibes": [
+      "cheap_long_stay",
+      "outdoorsy",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": false,
+      "coffee": false,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Berkeley Square Gardens",
+    "area": "Central",
+    "category": "garden_square",
+    "neighbourhood": "Mayfair",
+    "address": "check address",
+    "hours": "Daylight hours, public",
+    "price": "Free",
+    "notes": "Grade II listed square, public access",
+    "source": "walks.com",
+    "vibes": [
+      "cheap_long_stay",
+      "outdoorsy"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": false,
+      "coffee": false,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Cafe Linea",
+    "area": "West",
+    "category": "outdoor_cafe",
+    "neighbourhood": "Chelsea",
+    "address": "90 Duke of York Square, SW3 4RY",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Upscale terrace overlooking the square, people-watching",
+    "source": "theinfatuation.com",
+    "vibes": [
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Katsute 100",
+    "area": "North",
+    "category": "outdoor_cafe",
+    "neighbourhood": "Islington",
+    "address": "100 Islington High Street, N1 8EG",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Peaceful Japanese tea room with leafy back garden",
+    "source": "theinfatuation.com",
+    "vibes": [
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Heidi",
+    "area": "West",
+    "category": "outdoor_cafe",
+    "neighbourhood": "Chelsea",
+    "address": "Soane Stable Yard, Royal Hospital Rd, SW3 4SR",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Suntrap courtyard, tempting pastries",
+    "source": "theinfatuation.com",
+    "vibes": [
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "District - Battersea Park",
+    "area": "West",
+    "category": "outdoor_cafe",
+    "neighbourhood": "Battersea",
+    "address": "49 Parkgate Road, SW11 4NP",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Bright spot near the park, Aussie-style brunch",
+    "source": "theinfatuation.com",
+    "vibes": [
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Running Late Coffee",
+    "area": "East",
+    "category": "outdoor_cafe",
+    "neighbourhood": "London Fields",
+    "address": "249B Mare Street, E8 3NS",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Neighbourhood spot with benches, good for sunny days",
+    "source": "theinfatuation.com",
+    "vibes": [
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Kuro Coffee",
+    "area": "West",
+    "category": "outdoor_cafe",
+    "neighbourhood": "Notting Hill",
+    "address": "3 Hillgate St, W8 7SP",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Bench outside, great mocha",
+    "source": "theinfatuation.com",
+    "vibes": [
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Fred Coffee & Bakery",
+    "area": "Central",
+    "category": "outdoor_cafe",
+    "neighbourhood": "Holborn",
+    "address": "1 Northington Street, WC1N 2JE",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Suntrap terrace in Bloomsbury, creative iced lattes",
+    "source": "theinfatuation.com",
+    "vibes": [
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Café Kitsuné",
+    "area": "Central",
+    "category": "outdoor_cafe",
+    "neighbourhood": "Belgravia",
+    "address": "19 Motcomb Street, SW1X 8JT",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Coffee hatch with fairy lights, iced Spanish matcha",
+    "source": "theinfatuation.com",
+    "vibes": [
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Day Trip",
+    "area": "North",
+    "category": "outdoor_cafe",
+    "neighbourhood": "Islington",
+    "address": "21 Halliford Street, N1 3HB",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Curved stone bench in courtyard garden, sunny",
+    "source": "theinfatuation.com",
+    "vibes": [
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Pavilion Cafe (Victoria Park)",
+    "area": "East",
+    "category": "outdoor_cafe",
+    "neighbourhood": "Bow",
+    "address": "Victoria Park, E9 7DE",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Lakeside spot, greenery, poached eggs",
+    "source": "theinfatuation.com",
+    "vibes": [
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Greenberry Cafe",
+    "area": "North",
+    "category": "outdoor_cafe",
+    "neighbourhood": "Primrose Hill",
+    "address": "101 Regents Park Rd, NW1 8UR",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Charming outdoor tables near pastel houses",
+    "source": "theinfatuation.com",
+    "vibes": [
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Caravan King's Cross",
+    "area": "Central",
+    "category": "outdoor_cafe",
+    "neighbourhood": "King's Cross",
+    "address": "Granary Building, 1 Granary Square, N1C 4AA",
+    "hours": "check hours",
+    "price": "Cafe/restaurant prices",
+    "notes": "Large roastery, covered outdoor tables, workshop-style sharing tables",
+    "source": "theinfatuation.com",
+    "vibes": [
+      "outdoorsy",
+      "pretty_aesthetic"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "London Review Bookshop and Cake Shop",
+    "area": "Central",
+    "category": "bookshop_cafe",
+    "neighbourhood": "Bloomsbury",
+    "address": "14 Bury Place, WC1A 2JL",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Seasonal daily menu, cakes incl vegan, seating in cafe/back yard/front of shop",
+    "source": "londonist.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Tea and Tattle @ Arthur Probsthain's",
+    "area": "Central",
+    "category": "bookshop_cafe",
+    "neighbourhood": "Bloomsbury",
+    "address": "41 Great Russell Street, WC1B 3PE",
+    "hours": "check hours",
+    "price": "Cafe/tearoom prices",
+    "notes": "Traditional basement tearoom, Middle East/Africa/Asia specialist bookshop, full afternoon tea",
+    "source": "londonist.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Books for Cooks",
+    "area": "West",
+    "category": "bookshop_cafe",
+    "neighbourhood": "Notting Hill",
+    "address": "check address",
+    "hours": "Lunch Tue-Fri at noon",
+    "price": "~£7 3-course lunch",
+    "notes": "Best smelling bookshop, budget-friendly lunch",
+    "source": "diaryofalondoness.com",
+    "vibes": [
+      "cheap_long_stay",
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Maison Assouline / Swans Bar",
+    "area": "Central",
+    "category": "bookshop_cafe",
+    "neighbourhood": "Piccadilly",
+    "address": "196A Piccadilly, W1J 9EY",
+    "hours": "check hours",
+    "price": "Cocktail/wine bar prices",
+    "notes": "High-end coffee table books, double-height ceilings, feels like a hotel lobby bar",
+    "source": "londonist.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Kioskafe",
+    "area": "West",
+    "category": "bookshop_cafe",
+    "neighbourhood": "Paddington",
+    "address": "check address",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "International newspapers and magazines, local hub for journalists",
+    "source": "diaryofalondoness.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Pickled Pepper Books",
+    "area": "North",
+    "category": "bookshop_cafe",
+    "neighbourhood": "Crouch End",
+    "address": "check address",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Children's specialist, book clubs, theatre space",
+    "source": "diaryofalondoness.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Travelling Through",
+    "area": "Central",
+    "category": "bookshop_cafe",
+    "neighbourhood": "Waterloo",
+    "address": "Lower Marsh",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Travel books with courtyard cafe serving artisan global cuisine",
+    "source": "diaryofalondoness.com",
+    "vibes": [
+      "outdoorsy",
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": true,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "The Cafe at Foyles",
+    "area": "Central",
+    "category": "bookshop_cafe",
+    "neighbourhood": "Charing Cross Road",
+    "address": "107 Charing Cross Road, WC2H 0DT",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Fifth floor, sleek open-plan design, suits lunch meetings",
+    "source": "londonist.com",
+    "vibes": [
+      "meeting_ready",
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Rye Books",
+    "area": "South",
+    "category": "bookshop_cafe",
+    "neighbourhood": "East Dulwich",
+    "address": "check address",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Children's, fiction, travel & design, dog-friendly with resident dog",
+    "source": "diaryofalondoness.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "Stanfords Coffee House",
+    "area": "Central",
+    "category": "bookshop_cafe",
+    "neighbourhood": "Covent Garden",
+    "address": "7 Mercer Walk, WC2H 9FA",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Known for hot chocolate, few tables, outdoor seating on nice days, travel specialist since 1853, dog-friendly",
+    "source": "londonist.com",
+    "vibes": [
+      "outdoorsy",
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": true
+    }
+  },
+  {
+    "name": "Waterstones Piccadilly (Embertons/5th View/Jermyn St Mezzanine)",
+    "area": "Central",
+    "category": "bookshop_cafe",
+    "neighbourhood": "Piccadilly",
+    "address": "203-206 Piccadilly, W1J 9HD",
+    "hours": "check hours",
+    "price": "Cafe/bar prices",
+    "notes": "Three cafes in one building; Jermyn Street Mezzanine noted as quiet and good for working",
+    "source": "londonist.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Morocco Bound Bookshop Café",
+    "area": "South",
+    "category": "bookshop_cafe",
+    "neighbourhood": "Bermondsey",
+    "address": "1A Morocco Street, SE1 3HB",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Cafe-bookshop combo, front tables on charming street",
+    "source": "theinfatuation.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Dillons Café at Waterstones Gower Street",
+    "area": "Central",
+    "category": "bookshop_cafe",
+    "neighbourhood": "Gower Street",
+    "address": "82 Gower Street, WC1E 6EQ",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Laptop workers prevalent, window seats, coffee shop yard in back alley",
+    "source": "londonist.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Lucky Jim's at Waterstones Tottenham Court Road",
+    "area": "Central",
+    "category": "bookshop_cafe",
+    "neighbourhood": "Tottenham Court Road",
+    "address": "19-20 Tottenham Court Road, W1T 1BJ",
+    "hours": "check hours",
+    "price": "Cafe/bar prices",
+    "notes": "Basement, industrial chic, coffee by day cocktails by night, unreliable phone signal",
+    "source": "londonist.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Vanilla Black Coffee & Books",
+    "area": "South",
+    "category": "bookshop_cafe",
+    "neighbourhood": "Kennington",
+    "address": "306-308 Kennington Road, SE11 4LD",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Modern, light and airy, non-fiction focus, brunch, central seating ringed by bookshelves",
+    "source": "londonist.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Phlox Books",
+    "area": "East",
+    "category": "bookshop_cafe",
+    "neighbourhood": "Leyton",
+    "address": "159 Francis Road, E10 6NT",
+    "hours": "check hours",
+    "price": "Cafe/bar prices",
+    "notes": "Books, coffee, craft beer and wine, picnic bench seating outside",
+    "source": "londonist.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Glass House / The Common Press",
+    "area": "East",
+    "category": "bookshop_cafe",
+    "neighbourhood": "Bethnal Green",
+    "address": "118 Bethnal Green Road, E2 6DG",
+    "hours": "check hours",
+    "price": "Cafe/bar prices",
+    "notes": "LGBTQIA+ venue, bookshop/cafe championing queer and marginalised communities, separate late bar",
+    "source": "londonist.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Waterstones Greenwich",
+    "area": "South",
+    "category": "bookshop_cafe",
+    "neighbourhood": "Greenwich",
+    "address": "51 Greenwich Church Street, SE10 9BL",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Upstairs cafe",
+    "source": "londonist.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  },
+  {
+    "name": "Waterstones Trafalgar Square",
+    "area": "Central",
+    "category": "bookshop_cafe",
+    "neighbourhood": "Trafalgar Square",
+    "address": "check address",
+    "hours": "check hours",
+    "price": "Cafe prices",
+    "notes": "Cafe on site",
+    "source": "tripadvisor.com",
+    "vibes": [
+      "pretty_aesthetic",
+      "quiet_focused"
+    ],
+    "must_haves": {
+      "wifi": null,
+      "plug_sockets": null,
+      "food": true,
+      "coffee": true,
+      "greenery": false,
+      "dog_friendly": false
+    }
+  }
+];
+
+// Maps every raw `category` value onto the 8 user-facing category labels.
+// library + museum_gallery merge into one; garden_square + outdoor_cafe merge into another.
+// Filtering/rendering always reads through this lookup — place.category itself is never mutated.
+const CATEGORY_DISPLAY = {
+  hotel_lobby: 'Hotel lobbies',
+  coffee_shop: 'Coffee shops',
+  bistro: 'Bistros & cafés',
+  pub: 'Pubs',
+  coworking_paid: 'Paid coworking',
+  bookshop_cafe: 'Bookshop cafés',
+  library: 'Public libraries / museums / galleries',
+  museum_gallery: 'Public libraries / museums / galleries',
+  garden_square: 'Garden squares / outdoor cafés',
+  outdoor_cafe: 'Garden squares / outdoor cafés',
+};
+
+const CATEGORY_OPTIONS = [...new Set(Object.values(CATEGORY_DISPLAY))].sort();
+
+const AREA_OPTIONS = ['Central', 'North', 'South', 'East', 'West'];
+
+const VIBE_OPTIONS = [
+  { value: 'quiet_focused', label: 'Quiet & focused' },
+  { value: 'pretty_aesthetic', label: 'Pretty & aesthetic' },
+  { value: 'buzzy_social', label: 'Buzzy & social' },
+  { value: 'cheap_long_stay', label: 'Cheap & long-stay' },
+  { value: 'treat_day_fancy', label: 'Treat day / fancy' },
+  { value: 'outdoorsy', label: 'Outdoorsy' },
+  { value: 'meeting_ready', label: 'Meeting-ready / professional' },
+];
+
+const VIBE_LABELS = Object.fromEntries(VIBE_OPTIONS.map((v) => [v.value, v.label]));
+
+const MUST_HAVE_OPTIONS = [
+  { value: 'wifi', label: 'Wifi', caveat: 'confirmed only — many places aren’t verified yet', icon: 'wifi' },
+  { value: 'plug_sockets', label: 'Plug sockets', caveat: 'confirmed only — many places aren’t verified yet', icon: 'plug' },
+  { value: 'food', label: 'Food', caveat: null, icon: 'food' },
+  { value: 'coffee', label: 'Coffee', caveat: null, icon: 'coffee' },
+  { value: 'greenery', label: 'Greenery', caveat: null, icon: 'leaf' },
+  { value: 'dog_friendly', label: 'Dog-friendly', caveat: null, icon: 'dog' },
+];

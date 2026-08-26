@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Where to Work From in London</title>
+<meta name="description" content="Pick a vibe, get a real London spot to work from today.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <header class="app-header">
+    <div class="eyebrow">London, working</div>
+  </header>
+
+  <main class="screens">
+
+    <!-- LANDING -->
+    <section class="screen active" id="screen-landing">
+      <h1 class="title">Where to Work From in London</h1>
+      <p class="subtitle">Not another coffee shop with no plugs. Tell us the vibe you're after and we'll point you to a real spot — a hotel lobby, a quiet library, a garden square, whatever fits — with the address, hours and price laid out honestly.</p>
+      <button class="btn btn-primary" id="btn-start">Get started</button>
+      <p class="disclaimer">Details are gathered from public sources and lightly verified, not hand-checked place by place — always double-check address, hours and price before heading out.</p>
+    </section>
+
+    <!-- VIBE + FILTERS -->
+    <section class="screen" id="screen-filters">
+      <p class="step-label">Step 1</p>
+      <h2 class="question">What's the vibe today?</h2>
+      <p class="hint">Pick one or more — we'll show anything that matches at least one.</p>
+      <div class="options options-vibe" id="options-vibe"></div>
+
+      <details class="filters-panel" id="filters-panel">
+        <summary>Optional filters</summary>
+
+        <div class="filter-group">
+          <p class="filter-label">Area</p>
+          <div class="options options-pill" id="options-area"></div>
+        </div>
+
+        <div class="filter-group">
+          <p class="filter-label">Category</p>
+          <div class="options options-pill" id="options-category"></div>
+        </div>
+
+        <div class="filter-group">
+          <p class="filter-label">Must have</p>
+          <div class="options options-pill" id="options-musthave"></div>
+        </div>
+      </details>
+
+      <button class="btn btn-primary" id="btn-find">Find a place</button>
+      <button class="btn-back" data-back>Back</button>
+    </section>
+
+    <!-- RESULT -->
+    <section class="screen" id="screen-result">
+      <div class="banner" id="result-banner" hidden></div>
+
+      <p class="result-tag" id="result-category"></p>
+      <h2 class="result-name" id="result-name"></h2>
+      <p class="result-fit" id="result-fit"></p>
+
+      <div class="result-block" id="result-address-block">
+        <p class="result-field-label">Address</p>
+        <p class="result-field-value" id="result-address"></p>
+        <a class="result-link" id="result-maps" href="#" target="_blank" rel="noopener noreferrer">View on Google Maps &#8594;</a>
+      </div>
+
+      <div class="result-grid">
+        <div class="result-block">
+          <p class="result-field-label">Hours</p>
+          <p class="result-field-value" id="result-hours"></p>
+        </div>
+        <div class="result-block">
+          <p class="result-field-label">Price / access</p>
+          <p class="result-field-value" id="result-price"></p>
+        </div>
+      </div>
+
+      <p class="result-notes" id="result-notes"></p>
+
+      <div class="result-musthaves" id="result-musthaves"></div>
+      <div class="result-vibes" id="result-vibes"></div>
+
+      <div class="result-actions">
+        <button class="btn btn-primary" id="btn-alternative">Show alternative</button>
+        <button class="btn btn-ghost" id="btn-result-back">Back</button>
+        <button class="btn btn-ghost" id="btn-restart">Restart</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <span>A free companion for remote workers in London.</span>
+  </footer>
+
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
