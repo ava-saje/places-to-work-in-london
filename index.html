@@ -60,10 +60,10 @@
       <button class="btn-back" data-back>Back</button>
     </section>
 
-    <!-- STEP: MUST-HAVES -->
+    <!-- STEP: NICE TO HAVE -->
     <section class="screen" id="screen-musthaves" data-step-index="3">
-      <p class="step-label">04 &nbsp;—&nbsp; Anything you need?</p>
-      <h2 class="question">Must-haves <span class="optional-tag">(optional)</span></h2>
+      <p class="step-label">04 &nbsp;—&nbsp; Nice to have?</p>
+      <h2 class="question">Anything you'd like</h2>
       <div class="options options-pill" id="options-musthave"></div>
       <button class="btn btn-primary" id="btn-find">Find a place</button>
       <button class="btn-back" data-back>Back</button>
@@ -75,7 +75,6 @@
 
       <p class="result-tag" id="result-category"></p>
       <h2 class="result-name" id="result-name"></h2>
-      <p class="result-fit" id="result-fit"></p>
 
       <div class="result-block" id="result-address-block">
         <p class="result-field-label">Address</p>
@@ -83,20 +82,19 @@
         <a class="result-link" id="result-maps" href="#" target="_blank" rel="noopener noreferrer">View on Google Maps &#8594;</a>
       </div>
 
-      <div class="result-grid">
-        <div class="result-block">
-          <p class="result-field-label">Hours</p>
-          <p class="result-field-value" id="result-hours"></p>
+      <div class="info-row">
+        <div class="info-pill">
+          <span class="info-icon" aria-hidden="true">🕐</span>
+          <span class="info-text" id="result-hours"></span>
         </div>
-        <div class="result-block">
-          <p class="result-field-label">Price / access</p>
-          <p class="result-field-value" id="result-price"></p>
+        <div class="info-pill">
+          <span class="info-icon" aria-hidden="true">💷</span>
+          <span class="info-text" id="result-price"></span>
         </div>
       </div>
 
       <p class="result-notes" id="result-notes"></p>
 
-      <div class="result-musthaves" id="result-musthaves"></div>
       <div class="result-vibes" id="result-vibes"></div>
 
       <button class="btn btn-primary btn-block" id="btn-alternative">Show alternative</button>

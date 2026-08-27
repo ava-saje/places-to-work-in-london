@@ -278,14 +278,6 @@ function buildMapsQuery(place) {
   return encodeURIComponent(`${place.name}, ${addressPart}, London`);
 }
 
-function fitText(place) {
-  const matched = place.vibes.filter((v) => state.vibes.has(v));
-  const labels = matched.map((v) => VIBE_LABELS[v]);
-  if (labels.length === 1) return `Great for: ${labels[0]}`;
-  if (labels.length > 1) return `Matches: ${labels.join(', ')}`;
-  return `Tagged: ${VIBE_LABELS[place.vibes[0]] || 'a good all-rounder'}`;
-}
-
 function currentPlace() {
   return state.candidates[state.order[state.pointer]];
 }
@@ -303,7 +295,6 @@ function renderResult() {
 
   document.getElementById('result-category').textContent = CATEGORY_DISPLAY[place.category] + ' · ' + place.area;
   document.getElementById('result-name').textContent = place.name;
-  document.getElementById('result-fit').textContent = fitText(place);
 
   const addressEl = document.getElementById('result-address');
   addressEl.textContent = isPlaceholder(place.address, ['check address'])
@@ -322,13 +313,6 @@ function renderResult() {
     : place.price;
 
   document.getElementById('result-notes').textContent = place.notes;
-
-  // Only surface must-haves the place actually confirms — no clutter from
-  // "not confirmed"/"not available" states on this screen.
-  document.getElementById('result-musthaves').innerHTML = MUST_HAVE_OPTIONS
-    .filter((opt) => place.must_haves[opt.value] === true)
-    .map((opt) => `<span class="mh-chip">${MH_ICON[opt.value]} ${opt.label}</span>`)
-    .join('');
 
   document.getElementById('result-vibes').innerHTML = place.vibes
     .map((v) => `<span class="chip">${VIBE_LABELS[v]}</span>`)
