@@ -329,18 +329,6 @@ body {
   flex: 1;
 }
 
-.banner {
-  font-size: 0.84rem;
-  color: var(--ink);
-  background: var(--butter-soft);
-  border-radius: var(--radius);
-  padding: 11px 15px;
-  margin-bottom: 18px;
-  line-height: 1.4;
-}
-
-.banner[hidden] { display: none; }
-
 .result-tag {
   font-size: 0.72rem;
   letter-spacing: 0.12em;

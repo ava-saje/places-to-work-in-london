@@ -46,7 +46,6 @@ const state = {
   candidates: [],
   order: [],
   pointer: -1,
-  relaxedNotice: null,
 };
 
 // ---------- Step rendering ----------
@@ -164,25 +163,24 @@ function rankByVibeOverlap(list, vibes) {
 
 // Progressively relax the most restrictive filters first (must-haves, then category,
 // then area) so an overly narrow combination never produces a dead-end empty screen.
+// This happens silently — no on-screen explanation of what got relaxed.
 function findCandidates() {
   const { vibes, area, category, mustHaves } = state;
   const noMustHaves = Object.fromEntries(Object.keys(mustHaves).map((k) => [k, null]));
 
   const stages = [
-    { filters: { vibes, area, category, mustHaves }, notice: null },
-    { filters: { vibes, area, category, mustHaves: noMustHaves }, notice: 'No exact matches — showing results with your must-have filters turned off.' },
-    { filters: { vibes, area, category: null, mustHaves: noMustHaves }, notice: 'No exact matches — showing results from any category, with must-have filters turned off.' },
-    { filters: { vibes, area: null, category: null, mustHaves: noMustHaves }, notice: 'No exact matches — showing results from any area or category, with must-have filters turned off.' },
-    { filters: { vibes: new Set(), area: null, category: null, mustHaves: noMustHaves }, notice: 'No exact matches for these vibes — showing the full list instead.' },
+    { vibes, area, category, mustHaves },
+    { vibes, area, category, mustHaves: noMustHaves },
+    { vibes, area, category: null, mustHaves: noMustHaves },
+    { vibes, area: null, category: null, mustHaves: noMustHaves },
+    { vibes: new Set(), area: null, category: null, mustHaves: noMustHaves },
   ];
 
-  for (const stage of stages) {
-    const matches = PLACES.filter((p) => matchesFilters(p, stage.filters));
-    if (matches.length) {
-      return { candidates: rankByVibeOverlap(matches, stage.filters.vibes), notice: stage.notice };
-    }
+  for (const filters of stages) {
+    const matches = PLACES.filter((p) => matchesFilters(p, filters));
+    if (matches.length) return rankByVibeOverlap(matches, filters.vibes);
   }
-  return { candidates: [], notice: null };
+  return [];
 }
 
 function shuffle(array) {
@@ -208,9 +206,8 @@ function goLanding() {
 }
 
 function goFindResult() {
-  const { candidates, notice } = findCandidates();
+  const candidates = findCandidates();
   state.candidates = candidates;
-  state.relaxedNotice = notice;
   if (candidates.length === 0) {
     state.order = [];
     state.pointer = -1;
@@ -239,9 +236,6 @@ function showAlternative() {
     state.order = reshuffled;
     state.pointer = 0;
   }
-  // Only the first result screen after submitting answers shows the relaxation banner —
-  // subsequent alternatives are all drawn from that same (possibly relaxed) candidate pool.
-  state.relaxedNotice = null;
   renderResult();
 }
 
@@ -260,7 +254,6 @@ function restart() {
   state.candidates = [];
   state.order = [];
   state.pointer = -1;
-  state.relaxedNotice = null;
   goLanding();
 }
 
@@ -282,16 +275,31 @@ function currentPlace() {
   return state.candidates[state.order[state.pointer]];
 }
 
+// Turns the free-text price field into a quick £ tier when it's just a vague
+// category label ("Cafe prices", "Restaurant prices", ...) — keeps genuinely
+// specific info (real numbers, "Free", explicit day rates) exactly as-is.
+function priceDisplay(rawPrice) {
+  const text = rawPrice || '';
+  const lower = text.toLowerCase();
+
+  if (/£\d/.test(text)) return text; // has a real number — don't flatten it
+  if (lower.startsWith('free')) return text; // already short and specific enough
+
+  if (lower.includes('not listed') || (lower.includes('verify') && !/£/.test(text))) {
+    return 'Price not listed — worth checking';
+  }
+
+  if (/price|pricing/.test(lower)) {
+    if (/(fine dining|champagne|premium|luxury|seafood|department-store)/.test(lower)) return '£££ · upscale';
+    if (/(restaurant|bistro|cocktail|wine bar|food hall|tearoom|pub)/.test(lower)) return '££ · mid-range';
+    if (/(cafe|coffee)/.test(lower)) return '£ · casual';
+  }
+
+  return text;
+}
+
 function renderResult() {
   const place = currentPlace();
-
-  const banner = document.getElementById('result-banner');
-  if (state.relaxedNotice) {
-    banner.textContent = state.relaxedNotice;
-    banner.hidden = false;
-  } else {
-    banner.hidden = true;
-  }
 
   document.getElementById('result-category').textContent = CATEGORY_DISPLAY[place.category] + ' · ' + place.area;
   document.getElementById('result-name').textContent = place.name;
@@ -307,10 +315,7 @@ function renderResult() {
     ? 'Hours vary — worth checking ahead.'
     : place.hours;
 
-  const priceEl = document.getElementById('result-price');
-  priceEl.textContent = isPlaceholder(place.price, ['verify'])
-    ? `${place.price} (worth confirming)`
-    : place.price;
+  document.getElementById('result-price').textContent = priceDisplay(place.price);
 
   document.getElementById('result-notes').textContent = place.notes;
 
