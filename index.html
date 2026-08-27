@@ -17,6 +17,12 @@
 
   <header class="app-header">
     <div class="eyebrow">London, working</div>
+    <div class="progress" id="progress" aria-hidden="true">
+      <span class="dot" data-step="0"></span>
+      <span class="dot" data-step="1"></span>
+      <span class="dot" data-step="2"></span>
+      <span class="dot" data-step="3"></span>
+    </div>
   </header>
 
   <main class="screens">
@@ -24,37 +30,41 @@
     <!-- LANDING -->
     <section class="screen active" id="screen-landing">
       <h1 class="title">Where to Work From in London</h1>
-      <p class="subtitle">Not another coffee shop with no plugs. Tell us the vibe you're after and we'll point you to a real spot — a hotel lobby, a quiet library, a garden square, whatever fits — with the address, hours and price laid out honestly.</p>
+      <p class="subtitle">Not another coffee shop with no plugs. Answer a few quick questions and we'll point you to a real spot to get your work done.</p>
       <button class="btn btn-primary" id="btn-start">Get started</button>
-      <p class="disclaimer">Details are gathered from public sources and lightly verified, not hand-checked place by place — always double-check address, hours and price before heading out.</p>
+      <p class="disclaimer">Details are gathered from public sources — always worth a quick double-check before you head out.</p>
     </section>
 
-    <!-- VIBE + FILTERS -->
-    <section class="screen" id="screen-filters">
-      <p class="step-label">Step 1</p>
-      <h2 class="question">What's the vibe today?</h2>
-      <p class="hint">Pick one or more — we'll show anything that matches at least one.</p>
-      <div class="options options-vibe" id="options-vibe"></div>
+    <!-- STEP: AREA -->
+    <section class="screen" id="screen-area" data-step-index="0">
+      <p class="step-label">01 &nbsp;—&nbsp; Whereabouts?</p>
+      <h2 class="question">Which part of London?</h2>
+      <div class="options" id="options-area"></div>
+      <button class="btn-back" data-back>Back</button>
+    </section>
 
-      <details class="filters-panel" id="filters-panel">
-        <summary>Optional filters</summary>
+    <!-- STEP: CATEGORY -->
+    <section class="screen" id="screen-category" data-step-index="1">
+      <p class="step-label">02 &nbsp;—&nbsp; What kind of place?</p>
+      <h2 class="question">Pick a category</h2>
+      <div class="options" id="options-category"></div>
+      <button class="btn-back" data-back>Back</button>
+    </section>
 
-        <div class="filter-group">
-          <p class="filter-label">Area</p>
-          <div class="options options-pill" id="options-area"></div>
-        </div>
+    <!-- STEP: VIBE -->
+    <section class="screen" id="screen-vibe" data-step-index="2">
+      <p class="step-label">03 &nbsp;—&nbsp; What's the mood?</p>
+      <h2 class="question">Pick a vibe (or a few)</h2>
+      <div class="options options-pill" id="options-vibe"></div>
+      <button class="btn btn-primary" id="btn-vibe-next">Next</button>
+      <button class="btn-back" data-back>Back</button>
+    </section>
 
-        <div class="filter-group">
-          <p class="filter-label">Category</p>
-          <div class="options options-pill" id="options-category"></div>
-        </div>
-
-        <div class="filter-group">
-          <p class="filter-label">Must have</p>
-          <div class="options options-pill" id="options-musthave"></div>
-        </div>
-      </details>
-
+    <!-- STEP: MUST-HAVES -->
+    <section class="screen" id="screen-musthaves" data-step-index="3">
+      <p class="step-label">04 &nbsp;—&nbsp; Anything you need?</p>
+      <h2 class="question">Must-haves <span class="optional-tag">(optional)</span></h2>
+      <div class="options options-pill" id="options-musthave"></div>
       <button class="btn btn-primary" id="btn-find">Find a place</button>
       <button class="btn-back" data-back>Back</button>
     </section>
@@ -89,10 +99,10 @@
       <div class="result-musthaves" id="result-musthaves"></div>
       <div class="result-vibes" id="result-vibes"></div>
 
-      <div class="result-actions">
-        <button class="btn btn-primary" id="btn-alternative">Show alternative</button>
-        <button class="btn btn-ghost" id="btn-result-back">Back</button>
-        <button class="btn btn-ghost" id="btn-restart">Restart</button>
+      <button class="btn btn-primary btn-block" id="btn-alternative">Show alternative</button>
+      <div class="result-minor-actions">
+        <button class="btn-link" id="btn-result-back">Back to questions</button>
+        <button class="btn-link" id="btn-restart">Restart</button>
       </div>
     </section>
 

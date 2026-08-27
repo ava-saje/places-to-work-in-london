@@ -7,11 +7,41 @@ const MH_ICON = {
   dog_friendly: '🐶',
 };
 
+// Step-flow question options — defined here (not in data.js) so this file owns the
+// question copy independently of the generated PLACES data block.
+const AREA_STEP_OPTIONS = [
+  { value: 'Central', title: 'Central', sub: 'West End, City, Southbank' },
+  { value: 'North', title: 'North', sub: 'Camden, Islington, Hampstead' },
+  { value: 'South', title: 'South', sub: 'Brixton, Greenwich, Battersea' },
+  { value: 'East', title: 'East', sub: 'Shoreditch, Hackney, Canary Wharf' },
+  { value: 'West', title: 'West', sub: 'Notting Hill, Kensington, Chelsea' },
+  { value: null, title: 'Anywhere', sub: "Don't mind travelling" },
+];
+
+const CATEGORY_SUB = {
+  'Hotel lobbies': 'Plush lounges, free to sit',
+  'Coffee shops': 'Laptop-friendly cafés',
+  'Bistros & cafés': 'Sit-down, order food',
+  'Pubs': 'Pints, wifi, all-day tables',
+  'Paid coworking': 'Day passes, proper desks',
+  'Bookshop cafés': 'Books plus coffee',
+  'Public libraries / museums / galleries': 'Free, quiet, no pressure to order',
+  'Garden squares / outdoor cafés': 'Fresh air, greenery',
+};
+
+const CATEGORY_STEP_OPTIONS = [
+  ...CATEGORY_OPTIONS.map((label) => ({ value: label, title: label, sub: CATEGORY_SUB[label] || '' })),
+  { value: null, title: 'Any category', sub: 'Show me everything' },
+];
+
+const STEP_IDS = ['area', 'category', 'vibe', 'musthaves'];
+let currentStepIndex = 0;
+
 const state = {
   view: 'landing',
-  vibes: new Set(),
   area: null,
   category: null,
+  vibes: new Set(),
   mustHaves: { wifi: null, plug_sockets: null, food: null, coffee: null, greenery: null, dog_friendly: null },
   candidates: [],
   order: [],
@@ -19,7 +49,24 @@ const state = {
   relaxedNotice: null,
 };
 
-// ---------- Filter option rendering (vibe / area / category / must-have) ----------
+// ---------- Step rendering ----------
+
+function renderChoiceStep(field, options, containerId) {
+  const container = document.getElementById(containerId);
+  container.innerHTML = '';
+  options.forEach((opt) => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'option-card' + (state[field] === opt.value ? ' selected' : '');
+    btn.innerHTML = `<span class="opt-title">${opt.title}</span>` +
+      (opt.sub ? `<span class="opt-sub">${opt.sub}</span>` : '');
+    btn.addEventListener('click', () => {
+      state[field] = opt.value;
+      advanceStep();
+    });
+    container.appendChild(btn);
+  });
+}
 
 function renderVibeOptions() {
   const container = document.getElementById('options-vibe');
@@ -38,40 +85,6 @@ function renderVibeOptions() {
   });
 }
 
-function renderAreaOptions() {
-  const container = document.getElementById('options-area');
-  container.innerHTML = '';
-  const all = [{ value: null, label: 'Any area' }, ...AREA_OPTIONS.map((a) => ({ value: a, label: a }))];
-  all.forEach((opt) => {
-    const btn = document.createElement('button');
-    btn.type = 'button';
-    btn.className = 'opt-toggle' + (state.area === opt.value ? ' selected' : '');
-    btn.textContent = opt.label;
-    btn.addEventListener('click', () => {
-      state.area = opt.value;
-      renderAreaOptions();
-    });
-    container.appendChild(btn);
-  });
-}
-
-function renderCategoryOptions() {
-  const container = document.getElementById('options-category');
-  container.innerHTML = '';
-  const all = [{ value: null, label: 'Any category' }, ...CATEGORY_OPTIONS.map((c) => ({ value: c, label: c }))];
-  all.forEach((opt) => {
-    const btn = document.createElement('button');
-    btn.type = 'button';
-    btn.className = 'opt-toggle' + (state.category === opt.value ? ' selected' : '');
-    btn.textContent = opt.label;
-    btn.addEventListener('click', () => {
-      state.category = opt.value;
-      renderCategoryOptions();
-    });
-    container.appendChild(btn);
-  });
-}
-
 function renderMustHaveOptions() {
   const container = document.getElementById('options-musthave');
   container.innerHTML = '';
@@ -79,7 +92,7 @@ function renderMustHaveOptions() {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'opt-toggle' + (state.mustHaves[opt.value] === true ? ' selected' : '');
-    btn.innerHTML = `${MH_ICON[opt.value]} ${opt.label}` + (opt.caveat ? `<span class="caveat">${opt.caveat}</span>` : '');
+    btn.textContent = `${MH_ICON[opt.value]} ${opt.label}`;
     btn.addEventListener('click', () => {
       state.mustHaves[opt.value] = state.mustHaves[opt.value] === true ? null : true;
       renderMustHaveOptions();
@@ -88,11 +101,46 @@ function renderMustHaveOptions() {
   });
 }
 
-function renderFilterOptions() {
-  renderVibeOptions();
-  renderAreaOptions();
-  renderCategoryOptions();
-  renderMustHaveOptions();
+function renderStepScreen() {
+  document.querySelectorAll('.screen').forEach((s) => s.classList.remove('active'));
+  const field = STEP_IDS[currentStepIndex];
+  document.getElementById('screen-' + field).classList.add('active');
+
+  if (field === 'area') renderChoiceStep('area', AREA_STEP_OPTIONS, 'options-area');
+  if (field === 'category') renderChoiceStep('category', CATEGORY_STEP_OPTIONS, 'options-category');
+  if (field === 'vibe') renderVibeOptions();
+  if (field === 'musthaves') renderMustHaveOptions();
+
+  setProgressVisible(true);
+  updateProgress();
+}
+
+function setProgressVisible(visible) {
+  document.getElementById('progress').style.visibility = visible ? 'visible' : 'hidden';
+}
+
+function updateProgress() {
+  const dots = document.querySelectorAll('#progress .dot');
+  dots.forEach((dot, i) => {
+    dot.classList.toggle('filled', i < currentStepIndex);
+    dot.classList.toggle('current', i === currentStepIndex);
+  });
+}
+
+function advanceStep() {
+  if (currentStepIndex < STEP_IDS.length - 1) {
+    currentStepIndex++;
+    renderStepScreen();
+  }
+}
+
+function handleBack() {
+  if (currentStepIndex > 0) {
+    currentStepIndex--;
+    renderStepScreen();
+  } else {
+    goLanding();
+  }
 }
 
 // ---------- Matching ----------
@@ -125,15 +173,13 @@ function findCandidates() {
     { filters: { vibes, area, category, mustHaves: noMustHaves }, notice: 'No exact matches — showing results with your must-have filters turned off.' },
     { filters: { vibes, area, category: null, mustHaves: noMustHaves }, notice: 'No exact matches — showing results from any category, with must-have filters turned off.' },
     { filters: { vibes, area: null, category: null, mustHaves: noMustHaves }, notice: 'No exact matches — showing results from any area or category, with must-have filters turned off.' },
-    { filters: { vibes, area: null, category: null, mustHaves: noMustHaves }, notice: 'No exact matches for these vibes — showing all vibes instead.', vibesOverride: new Set() },
-    { filters: { vibes: new Set(), area: null, category: null, mustHaves: noMustHaves }, notice: 'No exact matches — showing the full list of places.' },
+    { filters: { vibes: new Set(), area: null, category: null, mustHaves: noMustHaves }, notice: 'No exact matches for these vibes — showing the full list instead.' },
   ];
 
   for (const stage of stages) {
-    const f = stage.vibesOverride ? { ...stage.filters, vibes: stage.vibesOverride } : stage.filters;
-    const matches = PLACES.filter((p) => matchesFilters(p, f));
+    const matches = PLACES.filter((p) => matchesFilters(p, stage.filters));
     if (matches.length) {
-      return { candidates: rankByVibeOverlap(matches, f.vibes), notice: stage.notice };
+      return { candidates: rankByVibeOverlap(matches, stage.filters.vibes), notice: stage.notice };
     }
   }
   return { candidates: [], notice: null };
@@ -157,13 +203,8 @@ function showScreen(id) {
 
 function goLanding() {
   state.view = 'landing';
+  setProgressVisible(false);
   showScreen('screen-landing');
-}
-
-function goFilters() {
-  state.view = 'filters';
-  renderFilterOptions();
-  showScreen('screen-filters');
 }
 
 function goFindResult() {
@@ -171,15 +212,15 @@ function goFindResult() {
   state.candidates = candidates;
   state.relaxedNotice = notice;
   if (candidates.length === 0) {
-    // Should not happen (the final relaxation stage is the unfiltered catalog), but guard anyway.
     state.order = [];
     state.pointer = -1;
-    goFilters();
+    renderStepScreen();
     return;
   }
   state.order = shuffle(candidates.map((_, i) => i));
   state.pointer = 0;
   state.view = 'result';
+  setProgressVisible(false);
   renderResult();
   showScreen('screen-result');
 }
@@ -198,20 +239,23 @@ function showAlternative() {
     state.order = reshuffled;
     state.pointer = 0;
   }
-  // Only the first result screen after a filter submit shows the relaxation banner —
+  // Only the first result screen after submitting answers shows the relaxation banner —
   // subsequent alternatives are all drawn from that same (possibly relaxed) candidate pool.
   state.relaxedNotice = null;
   renderResult();
 }
 
+// From the result screen, currentStepIndex is still sitting on the last step (musthaves) —
+// we never advance past it before calling goFindResult(). So "Back" just re-shows that step.
 function backFromResult() {
-  goFilters();
+  renderStepScreen();
 }
 
 function restart() {
-  state.vibes = new Set();
+  currentStepIndex = 0;
   state.area = null;
   state.category = null;
+  state.vibes = new Set();
   state.mustHaves = { wifi: null, plug_sockets: null, food: null, coffee: null, greenery: null, dog_friendly: null };
   state.candidates = [];
   state.order = [];
@@ -242,14 +286,6 @@ function fitText(place) {
   return `Tagged: ${VIBE_LABELS[place.vibes[0]] || 'a good all-rounder'}`;
 }
 
-function renderMustHaveChip(place, key, label) {
-  const value = place.must_haves[key];
-  const icon = MH_ICON[key];
-  if (value === true) return `<span class="mh-chip mh-yes">${icon} ${label}</span>`;
-  if (value === false) return `<span class="mh-chip mh-no">${icon} ${label} — not available</span>`;
-  return `<span class="mh-chip mh-unknown">${icon} ${label} — not confirmed</span>`;
-}
-
 function currentPlace() {
   return state.candidates[state.order[state.pointer]];
 }
@@ -270,37 +306,28 @@ function renderResult() {
   document.getElementById('result-fit').textContent = fitText(place);
 
   const addressEl = document.getElementById('result-address');
-  if (isPlaceholder(place.address, ['check address'])) {
-    addressEl.textContent = `Address not confirmed — check before visiting (near ${place.neighbourhood}).`;
-    addressEl.classList.add('unconfirmed');
-  } else {
-    addressEl.textContent = place.address;
-    addressEl.classList.remove('unconfirmed');
-  }
+  addressEl.textContent = isPlaceholder(place.address, ['check address'])
+    ? `Exact address not listed — it's in ${place.neighbourhood}.`
+    : place.address;
   document.getElementById('result-maps').href = `https://www.google.com/maps/search/?api=1&query=${buildMapsQuery(place)}`;
 
   const hoursEl = document.getElementById('result-hours');
-  if (isPlaceholder(place.hours, ['check hours', 'check current hours'])) {
-    hoursEl.textContent = 'Hours not confirmed — check ahead.';
-    hoursEl.classList.add('unconfirmed');
-  } else {
-    hoursEl.textContent = place.hours;
-    hoursEl.classList.remove('unconfirmed');
-  }
+  hoursEl.textContent = isPlaceholder(place.hours, ['check hours', 'check current hours'])
+    ? 'Hours vary — worth checking ahead.'
+    : place.hours;
 
   const priceEl = document.getElementById('result-price');
-  if (isPlaceholder(place.price, ['verify'])) {
-    priceEl.textContent = `${place.price} (price unverified — confirm before visiting)`;
-    priceEl.classList.add('unconfirmed');
-  } else {
-    priceEl.textContent = place.price;
-    priceEl.classList.remove('unconfirmed');
-  }
+  priceEl.textContent = isPlaceholder(place.price, ['verify'])
+    ? `${place.price} (worth confirming)`
+    : place.price;
 
   document.getElementById('result-notes').textContent = place.notes;
 
+  // Only surface must-haves the place actually confirms — no clutter from
+  // "not confirmed"/"not available" states on this screen.
   document.getElementById('result-musthaves').innerHTML = MUST_HAVE_OPTIONS
-    .map((opt) => renderMustHaveChip(place, opt.value, opt.label))
+    .filter((opt) => place.must_haves[opt.value] === true)
+    .map((opt) => `<span class="mh-chip">${MH_ICON[opt.value]} ${opt.label}</span>`)
     .join('');
 
   document.getElementById('result-vibes').innerHTML = place.vibes
@@ -311,12 +338,18 @@ function renderResult() {
 // ---------- Init ----------
 
 function init() {
-  document.getElementById('btn-start').addEventListener('click', goFilters);
-  document.querySelectorAll('[data-back]').forEach((btn) => btn.addEventListener('click', goLanding));
+  document.getElementById('btn-start').addEventListener('click', () => {
+    currentStepIndex = 0;
+    renderStepScreen();
+  });
+  document.querySelectorAll('[data-back]').forEach((btn) => btn.addEventListener('click', handleBack));
+  document.getElementById('btn-vibe-next').addEventListener('click', advanceStep);
   document.getElementById('btn-find').addEventListener('click', goFindResult);
   document.getElementById('btn-alternative').addEventListener('click', showAlternative);
   document.getElementById('btn-result-back').addEventListener('click', backFromResult);
   document.getElementById('btn-restart').addEventListener('click', restart);
+
+  setProgressVisible(false);
 }
 
 init();
