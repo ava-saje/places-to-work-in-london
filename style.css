@@ -125,28 +125,38 @@ body {
   flex: 1;
 }
 
+.title-mark {
+  width: 34px;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--sky);
+  margin-bottom: 22px;
+}
+
 .title {
   font-family: 'Fraunces', Georgia, serif;
   font-weight: 500;
-  font-size: 2.4rem;
-  line-height: 1.14;
-  letter-spacing: -0.01em;
-  margin: 0 0 14px;
+  font-size: 2.9rem;
+  line-height: 1.08;
+  letter-spacing: -0.015em;
+  margin: 0 0 18px;
   color: var(--ink);
 }
 
 .subtitle {
-  font-size: 1.02rem;
+  font-size: 1.05rem;
   color: var(--ink-soft);
-  margin: 0 0 30px;
-  line-height: 1.55;
+  margin: 0 0 34px;
+  line-height: 1.6;
+  max-width: 34ch;
 }
 
 .disclaimer {
-  font-size: 0.78rem;
+  font-size: 0.76rem;
   color: var(--ink-faint);
   line-height: 1.5;
-  margin: 22px 0 0;
+  margin: 26px 0 0;
+  max-width: 34ch;
 }
 
 /* ---------- Step screens ---------- */
