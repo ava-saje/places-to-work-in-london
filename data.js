@@ -2405,8 +2405,8 @@ const PLACES = [
       "meeting_ready"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,
@@ -2428,8 +2428,8 @@ const PLACES = [
       "treat_day_fancy"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,
@@ -2451,8 +2451,8 @@ const PLACES = [
       "treat_day_fancy"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,
@@ -2474,8 +2474,8 @@ const PLACES = [
       "treat_day_fancy"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,
@@ -2497,8 +2497,8 @@ const PLACES = [
       "treat_day_fancy"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,
@@ -2520,8 +2520,8 @@ const PLACES = [
       "treat_day_fancy"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,
@@ -2543,8 +2543,8 @@ const PLACES = [
       "meeting_ready"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,
@@ -2566,8 +2566,8 @@ const PLACES = [
       "meeting_ready"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,
@@ -2589,8 +2589,8 @@ const PLACES = [
       "treat_day_fancy"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,
@@ -2612,8 +2612,8 @@ const PLACES = [
       "treat_day_fancy"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,
@@ -2634,8 +2634,8 @@ const PLACES = [
       "meeting_ready"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,
@@ -2656,8 +2656,8 @@ const PLACES = [
       "meeting_ready"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,
@@ -2678,8 +2678,8 @@ const PLACES = [
       "meeting_ready"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,
@@ -2700,8 +2700,8 @@ const PLACES = [
       "meeting_ready"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,
@@ -2722,8 +2722,8 @@ const PLACES = [
       "meeting_ready"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,
@@ -2744,8 +2744,8 @@ const PLACES = [
       "meeting_ready"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,
@@ -2766,8 +2766,8 @@ const PLACES = [
       "meeting_ready"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,
@@ -2789,8 +2789,8 @@ const PLACES = [
       "treat_day_fancy"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,
@@ -2812,8 +2812,8 @@ const PLACES = [
       "treat_day_fancy"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,
@@ -2834,8 +2834,8 @@ const PLACES = [
       "meeting_ready"
     ],
     "must_haves": {
-      "wifi": null,
-      "plug_sockets": null,
+      "wifi": true,
+      "plug_sockets": true,
       "food": null,
       "coffee": true,
       "greenery": false,

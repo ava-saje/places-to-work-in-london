@@ -168,11 +168,13 @@ function findCandidates() {
   const { vibes, area, category, mustHaves } = state;
   const noMustHaves = Object.fromEntries(Object.keys(mustHaves).map((k) => [k, null]));
 
+  // Category and area were each a deliberate, single dedicated question — relax those
+  // last. Vibes and must-haves are the "soft" preferences, so those give way first.
   const stages = [
     { vibes, area, category, mustHaves },
     { vibes, area, category, mustHaves: noMustHaves },
-    { vibes, area, category: null, mustHaves: noMustHaves },
-    { vibes, area: null, category: null, mustHaves: noMustHaves },
+    { vibes: new Set(), area, category, mustHaves: noMustHaves },
+    { vibes: new Set(), area: null, category, mustHaves: noMustHaves },
     { vibes: new Set(), area: null, category: null, mustHaves: noMustHaves },
   ];
 
