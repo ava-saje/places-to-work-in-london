@@ -11,7 +11,7 @@ const PLACES = [
     "address": "2 Macclesfield Road, London EC1V 8EL",
     "hours": "Restaurant/bar 12pm-3pm & 5pm-10pm (hotel lobby accessible 24 hours)",
     "price": "Free to sit; buy a drink",
-    "notes": "Coworking-style lobby, plush chairs, private work labs, on-site bar/restaurant",
+    "notes": "A coworking-style lobby with plush chairs and private work pods, plus an on-site bar and restaurant if you need a break.",
     "source": "influenceonline.co.uk",
     "vibes": [
       "cheap_long_stay",
@@ -36,7 +36,7 @@ const PLACES = [
     "address": "10 Argyle Street, London WC1H 8EG",
     "hours": "Library lounge open to public until 6pm daily",
     "price": "Free to sit; buy a drink",
-    "notes": "Cosy library lounge, quiet, rooftop restaurant for after",
+    "notes": "A cosy, quiet library lounge, with a rooftop restaurant to head to afterwards.",
     "source": "influenceonline.co.uk",
     "vibes": [
       "cheap_long_stay",
@@ -62,7 +62,7 @@ const PLACES = [
     "address": "81 Great Eastern St, EC2A",
     "hours": "Daily 7am-11pm",
     "price": "Free to sit; buy a drink",
-    "notes": "Open lobby, dedicated 'Working From_' coworking corner, buzzy social",
+    "notes": "An open, buzzy lobby with a dedicated 'Working From_' coworking corner set up for laptops.",
     "source": "candaceabroad.com",
     "vibes": [
       "buzzy_social",
@@ -88,7 +88,7 @@ const PLACES = [
     "address": "32-40 Blackfriars Road, London SE1 8PB",
     "hours": "Lobby bar Sun-Thu until 12am (Fri-Sat until 1am); lobby cafe Mon-Fri 7-11:30am",
     "price": "Free to sit; buy a drink",
-    "notes": "Dedicated 'Working From_' coworking space, comfy lounges, complimentary tea/coffee, buzzy social",
+    "notes": "A dedicated 'Working From_' coworking space with comfy lounges, complimentary tea and coffee, and a buzzy social atmosphere.",
     "source": "influenceonline.co.uk",
     "vibes": [
       "buzzy_social",
@@ -114,7 +114,7 @@ const PLACES = [
     "address": "40 Trinity Square, EC3N 4DJ",
     "hours": "Mon-Fri 7am-4pm; weekends 8am-2pm",
     "price": "Free; sofas/tables",
-    "notes": "Free public lobby, sofas, fast wifi",
+    "notes": "A free, publicly accessible lobby with comfy sofas and fast wifi.",
     "source": "candaceabroad.com",
     "vibes": [
       "cheap_long_stay",
@@ -139,7 +139,7 @@ const PLACES = [
     "address": "multiple",
     "hours": "check per property",
     "price": "Free to sit; buy a drink",
-    "notes": "Open living-room lobby, workspaces with iMacs/printers, 24/7 food",
+    "notes": "An open, living-room-style lobby with workspaces that have iMacs and printers, plus food available around the clock.",
     "source": "influenceonline.co.uk",
     "vibes": [
       "cheap_long_stay",
@@ -164,7 +164,7 @@ const PLACES = [
     "address": "multiple",
     "hours": "check per property",
     "price": "Free to sit; buy a drink",
-    "notes": "Riverside citizenM, open living-room lobby",
+    "notes": "A riverside citizenM with an open, living-room-style lobby.",
     "source": "influenceonline.co.uk",
     "vibes": [
       "cheap_long_stay",
@@ -190,7 +190,7 @@ const PLACES = [
     "address": "15 Water Street, London E14 9SB",
     "hours": "24 hours",
     "price": "Free to sit; buy a drink",
-    "notes": "24-hour 'Social Hub' ground floor designed for remote workers, buzzy",
+    "notes": "A buzzy, 24-hour 'Social Hub' on the ground floor, designed with remote workers in mind.",
     "source": "influenceonline.co.uk",
     "vibes": [
       "buzzy_social",
@@ -216,7 +216,7 @@ const PLACES = [
     "address": "40 Liverpool Street, London EC2M 7QN",
     "hours": "Lobby accessible 24 hours (hotel)",
     "price": "Free to sit; buy a drink",
-    "notes": "Graffiti-art lobby, cosy cushioned corners",
+    "notes": "A graffiti-art lobby with cosy, cushioned corners to tuck into.",
     "source": "thehandbook.com",
     "vibes": [
       "cheap_long_stay",
@@ -241,7 +241,7 @@ const PLACES = [
     "address": "1-8 Russell Square, London WC1B 5BE",
     "hours": "Lobby accessible 24 hours (hotel)",
     "price": "Free to sit; buy a drink",
-    "notes": "Glamorous marble lobby, hidden seating areas, quiet corners",
+    "notes": "A glamorous marble lobby with hidden seating areas and quiet corners to work from.",
     "source": "thehandbook.com",
     "vibes": [
       "cheap_long_stay",
@@ -267,7 +267,7 @@ const PLACES = [
     "address": "33 Albemarle Street, Mayfair, London W1S 4BP",
     "hours": "The Drawing Room: Mon-Fri 8am-8pm, Sat-Sun 10am-8pm",
     "price": "Free to sit; buy a drink",
-    "notes": "Classic British lounge, quieter midweek, elegant",
+    "notes": "An elegant, classic British lounge that's quieter midweek if you want to avoid the crowds.",
     "source": "thehandbook.com",
     "vibes": [
       "cheap_long_stay",
@@ -292,7 +292,7 @@ const PLACES = [
     "address": "68 Regent Street, London W1B 4DY",
     "hours": "Lobby accessible 24 hours (hotel)",
     "price": "Free to sit; pricier drinks",
-    "notes": "Grand extravagant lobby, custom chandelier",
+    "notes": "A grand, extravagant lobby under a custom chandelier.",
     "source": "thehandbook.com",
     "vibes": [
       "cheap_long_stay",
@@ -317,7 +317,7 @@ const PLACES = [
     "address": "31 St Thomas Street, London SE1 9QU",
     "hours": "GONG Bar (Level 52): Tue-Thu 4pm-10pm, Fri-Sun 12pm-10pm",
     "price": "Free to sit; pricier drinks",
-    "notes": "Elegant, views, expect a drinks minimum",
+    "notes": "Elegant and full of views, though expect a drinks minimum.",
     "source": "thehandbook.com",
     "vibes": [
       "cheap_long_stay",
@@ -342,7 +342,7 @@ const PLACES = [
     "address": "116 Pall Mall, SW1Y 5ED",
     "hours": "Mon-Fri 8am-10pm (closed weekends)",
     "price": "Members hot-desking; day rate",
-    "notes": "Members' hot-desking in brasserie/lounge, Academy meeting rooms, grand",
+    "notes": "A grand members' space with hot-desking in the brasserie and lounge, plus Academy meeting rooms.",
     "source": "thehandbook.com",
     "vibes": [
       "meeting_ready",
@@ -366,7 +366,7 @@ const PLACES = [
     "address": "1C Portland Place, London W1B 1JA",
     "hours": "Palm Court: Mon-Thu 6:30am-11pm, Fri 6:30am-12am, Sat 8:30am-12am, Sun 8:30am-11pm",
     "price": "Free to sit; buy a drink",
-    "notes": "Stylish monochrome marble lobby lounge",
+    "notes": "A stylish, monochrome marble lobby lounge.",
     "source": "thehandbook.com",
     "vibes": [
       "cheap_long_stay",
@@ -391,7 +391,7 @@ const PLACES = [
     "address": "336-337 Strand, London WC2R 1HA",
     "hours": "check hours",
     "price": "Free to sit; buy a drink",
-    "notes": "Sleek modern riverside lobby",
+    "notes": "A sleek, modern lobby right on the river.",
     "source": "thehandbook.com",
     "vibes": [
       "cheap_long_stay",
@@ -417,7 +417,7 @@ const PLACES = [
     "address": "3 South Place, London EC2M 2AF",
     "hours": "Restaurant Mon-Sun 6:30-11am, 12-3pm, 6-10:30pm; rooftop terrace Tue-Fri 12-8:30pm",
     "price": "Free to sit; buy a drink",
-    "notes": "Contemporary lobby lounge, airplane chandelier",
+    "notes": "A contemporary lobby lounge with a striking airplane chandelier.",
     "source": "thehandbook.com",
     "vibes": [
       "cheap_long_stay",
@@ -442,7 +442,7 @@ const PLACES = [
     "address": "10 Wardour Street, London W1D 6QF",
     "hours": "Mon-Sun 8am-1:30am",
     "price": "Free to sit; buy a drink",
-    "notes": "Glamorous, buzzy, disco balls, theatre-like, social",
+    "notes": "Glamorous and buzzy, with disco balls and a theatrical, social feel.",
     "source": "thehandbook.com",
     "vibes": [
       "buzzy_social",
@@ -468,7 +468,7 @@ const PLACES = [
     "address": "7-12 Half Moon Street, London W1J 7BH",
     "hours": "Lobby accessible 24 hours (hotel)",
     "price": "Free to sit; buy a drink",
-    "notes": "Quieter classic luxury lobby",
+    "notes": "A quieter, classic luxury lobby.",
     "source": "thehandbook.com",
     "vibes": [
       "cheap_long_stay",
@@ -493,7 +493,7 @@ const PLACES = [
     "address": "116 Piccadilly, W1J 7BJ",
     "hours": "Bar 11am-1am; all-day dining 12pm-11pm",
     "price": "Explicit day rates for solo workers",
-    "notes": "Energetic background, brainstorming-friendly, private spaces for groups",
+    "notes": "An energetic backdrop that's good for brainstorming, with private spaces for groups too.",
     "source": "thehandbook.com",
     "vibes": [
       "meeting_ready",
@@ -517,7 +517,7 @@ const PLACES = [
     "address": "14-15 Langham Place, W1B 2QS",
     "hours": "The Nest rooftop: Tue-Wed 4pm-1am, Thu-Sat 12pm-1am",
     "price": "Free to sit; buy a drink",
-    "notes": "Tropical treehouse-inspired lobby + rooftop bar",
+    "notes": "A tropical, treehouse-inspired lobby with a rooftop bar.",
     "source": "thehandbook.com",
     "vibes": [
       "cheap_long_stay",
@@ -542,7 +542,7 @@ const PLACES = [
     "address": "20 Upper Ground, London SE1 9PD",
     "hours": "Lyaness bar: Mon-Wed & Fri 5pm-11pm, Sat-Sun 12pm-11pm",
     "price": "Free to sit; buy a drink",
-    "notes": "Known for laptop-friendly lobby (verify current policy)",
+    "notes": "Known for its laptop-friendly lobby, though it's worth double-checking the current policy.",
     "source": "general search - verify",
     "vibes": [
       "cheap_long_stay",
@@ -567,7 +567,7 @@ const PLACES = [
     "address": "London EC4M 9BW",
     "hours": "Mon-Thu 7:30am-4:30pm; Fri 7:30am-4pm",
     "price": "Free wifi (BYO food allowed)",
-    "notes": "Historic church setting, free wifi",
+    "notes": "A historic church setting with free wifi.",
     "source": "candaceabroad.com",
     "vibes": [
       "buzzy_social",
@@ -591,7 +591,7 @@ const PLACES = [
     "address": "114 Queen Victoria St",
     "hours": "Opens 7am",
     "price": "Cafe prices",
-    "notes": "Inside a church, plug sockets, tall-ceilinged room",
+    "notes": "Set inside a church, with plug sockets and a tall-ceilinged room to work in.",
     "source": "theinfatuation.com",
     "vibes": [
       "buzzy_social"
@@ -614,7 +614,7 @@ const PLACES = [
     "address": "40 Drury Lane",
     "hours": "Closes 5:30pm weekdays",
     "price": "Cafe prices",
-    "notes": "Ample seating, pour-over bar",
+    "notes": "Ample seating and a pour-over bar.",
     "source": "theinfatuation.com",
     "vibes": [
       "buzzy_social"
@@ -637,7 +637,7 @@ const PLACES = [
     "address": "46 Dean St, W1D 4QD",
     "hours": "~8am-10pm",
     "price": "Cafe prices",
-    "notes": "Sockets and fast wifi but not ideal for deep work, buzzy",
+    "notes": "Sockets and fast wifi, though it's buzzy and not ideal for deep focus work.",
     "source": "candaceabroad.com",
     "vibes": [
       "buzzy_social"
@@ -660,7 +660,7 @@ const PLACES = [
     "address": "183 Holloway Rd, N7 8LX",
     "hours": "Mon-Fri 8:30am-3:30pm",
     "price": "Cafe prices",
-    "notes": "Vegan-focused, dog-friendly, indie local vibe",
+    "notes": "Vegan-focused and dog-friendly, with an indie local vibe.",
     "source": "candaceabroad.com",
     "vibes": [
       "buzzy_social"
@@ -683,7 +683,7 @@ const PLACES = [
     "address": "105 Holloway Rd, N7 8LT",
     "hours": "Mon-Fri 7:30am-5pm; weekends 9am-6pm",
     "price": "Cafe prices",
-    "notes": "Explicitly freelancer-friendly community hub",
+    "notes": "A community hub that explicitly welcomes freelancers.",
     "source": "candaceabroad.com",
     "vibes": [
       "buzzy_social"
@@ -706,7 +706,7 @@ const PLACES = [
     "address": "274B St Paul's Rd, N1 2LJ",
     "hours": "Daily 9am-9pm",
     "price": "Cafe/wine bar prices",
-    "notes": "Cafe doubling as wine bar, all-day menu",
+    "notes": "A cafe that doubles as a wine bar, with an all-day menu.",
     "source": "candaceabroad.com",
     "vibes": [
       "buzzy_social"
@@ -729,7 +729,7 @@ const PLACES = [
     "address": "67 Lawrence Rd",
     "hours": "Closes 4:30pm",
     "price": "Cafe prices",
-    "notes": "Outdoor terrace, fast wifi",
+    "notes": "An outdoor terrace with fast wifi.",
     "source": "theinfatuation.com",
     "vibes": [
       "buzzy_social",
@@ -754,7 +754,7 @@ const PLACES = [
     "address": "180 Portobello Rd, W11 2EB",
     "hours": "Daily 8am-4pm",
     "price": "Cafe prices",
-    "notes": "Independent roastery",
+    "notes": "An independent coffee roastery.",
     "source": "candaceabroad.com",
     "vibes": [
       "buzzy_social"
@@ -777,7 +777,7 @@ const PLACES = [
     "address": "Turnham Green Terrace Mews, W4 1QU",
     "hours": "Mon-Fri 8-5:30; Sat 9-6; Sun 10-5:30",
     "price": "Cafe prices",
-    "notes": "Coffee + arcade + pinball hybrid space",
+    "notes": "A hybrid space combining coffee with an arcade and pinball machines.",
     "source": "candaceabroad.com",
     "vibes": [
       "buzzy_social"
@@ -800,7 +800,7 @@ const PLACES = [
     "address": "32 New Broadway, W5 2XA",
     "hours": "Mon-Fri 8:30-3; weekends 9-4",
     "price": "Cafe prices",
-    "notes": "Generous plug sockets, wooden tables",
+    "notes": "Generous plug sockets and wooden tables to spread out on.",
     "source": "candaceabroad.com",
     "vibes": [
       "buzzy_social"
@@ -823,7 +823,7 @@ const PLACES = [
     "address": "23 Walton St, SW3 2HX",
     "hours": "Mon-Fri 8-4; weekends 9-4",
     "price": "Cafe prices",
-    "notes": "Fast wifi, two floors, plenty of food options",
+    "notes": "Fast wifi across two floors, with plenty of food options.",
     "source": "candaceabroad.com",
     "vibes": [
       "buzzy_social"
@@ -846,7 +846,7 @@ const PLACES = [
     "address": "167 Bermondsey St, SE1",
     "hours": "Mon-Sat 7am-6pm; Sun 8am-6pm",
     "price": "Cafe prices",
-    "notes": "Calm vibe, plenty of sockets",
+    "notes": "A calm vibe with plenty of sockets.",
     "source": "candaceabroad.com",
     "vibes": [
       "buzzy_social",
@@ -870,7 +870,7 @@ const PLACES = [
     "address": "111 Brixton Hill, SW2 1AA",
     "hours": "Mon-Fri 8-3; weekends 9-3",
     "price": "Cafe prices",
-    "notes": "Plenty of corners and plugs",
+    "notes": "Plenty of corners to tuck into and plugs to use.",
     "source": "candaceabroad.com",
     "vibes": [
       "buzzy_social"
@@ -893,7 +893,7 @@ const PLACES = [
     "address": "92 Peckham Rd, SE15 5PY",
     "hours": "Mon 11-4; Tue-Sun 11-10",
     "price": "Cafe prices (£1 DIY bagels)",
-    "notes": "Art venue/local hangout, natural light, open space",
+    "notes": "Part art venue, part local hangout, with natural light and an open layout.",
     "source": "candaceabroad.com",
     "vibes": [
       "buzzy_social"
@@ -916,7 +916,7 @@ const PLACES = [
     "address": "70 Camberwell Church St, SE5 8QZ",
     "hours": "Mon-Fri 8-4; weekends 9-4",
     "price": "Cafe prices",
-    "notes": "Artisanal brews, hipster aesthetic, can get noisy/busy",
+    "notes": "Artisanal brews and a hipster aesthetic, though it can get noisy and busy.",
     "source": "candaceabroad.com",
     "vibes": [
       "buzzy_social"
@@ -939,7 +939,7 @@ const PLACES = [
     "address": "11 Leonard St, EC2A 4AQ",
     "hours": "Mon-Fri 8-3; weekends 9-3",
     "price": "Cafe prices",
-    "notes": "Well-known coffee spot, busy at peak times",
+    "notes": "A well-known coffee spot that gets busy at peak times.",
     "source": "candaceabroad.com",
     "vibes": [
       "buzzy_social"
@@ -962,7 +962,7 @@ const PLACES = [
     "address": "154-158 Shoreditch High St, E1 6HU",
     "hours": "Mon-Fri 8-7",
     "price": "Cafe prices; desk rental available",
-    "notes": "Officially welcomes laptop workers upstairs, avoid brunch",
+    "notes": "Officially welcomes laptop workers upstairs, just avoid it at brunch.",
     "source": "candaceabroad.com",
     "vibes": [
       "buzzy_social"
@@ -985,7 +985,7 @@ const PLACES = [
     "address": "42 Provost St, N1 7SU",
     "hours": "Mon-Fri 7-4",
     "price": "Cafe prices",
-    "notes": "Quiet, spacious, 'freelancer's heaven', outdoor meeting area",
+    "notes": "Quiet and spacious, dubbed a 'freelancer's heaven', with an outdoor meeting area.",
     "source": "candaceabroad.com",
     "vibes": [
       "buzzy_social",
@@ -1011,7 +1011,7 @@ const PLACES = [
     "address": "2 Broadway Market",
     "hours": "Mon-Wed & Sun 10am-10pm, Thu 10am-11pm, Fri-Sat 10am-11:30pm",
     "price": "Cafe prices",
-    "notes": "Canal views, good spread of plug sockets",
+    "notes": "Canal views and a good spread of plug sockets.",
     "source": "theinfatuation.com",
     "vibes": [
       "buzzy_social"
@@ -1034,7 +1034,7 @@ const PLACES = [
     "address": "11 Argall Ave, E10 7QE",
     "hours": "Mon-Fri 9-4; weekends 10-4",
     "price": "Cafe prices",
-    "notes": "Airy, greenery, high ceilings, industrial estate hidden gem",
+    "notes": "An airy hidden gem on an industrial estate, with greenery and high ceilings.",
     "source": "candaceabroad.com",
     "vibes": [
       "buzzy_social",
@@ -1058,7 +1058,7 @@ const PLACES = [
     "address": "Harrods, Knightsbridge",
     "hours": "Store hours",
     "price": "Department-store prices",
-    "notes": "Casual coffee and pastry spot, 200+ pastry products",
+    "notes": "A casual coffee and pastry spot with over 200 pastry products to choose from.",
     "source": "londonperfect.com",
     "vibes": [
       "buzzy_social"
@@ -1081,7 +1081,7 @@ const PLACES = [
     "address": "Harvey Nichols, Knightsbridge",
     "hours": "Store hours",
     "price": "Department-store prices",
-    "notes": "Casual refuelling spot, sharing platters",
+    "notes": "A casual refuelling spot known for its sharing platters.",
     "source": "londonperfect.com",
     "vibes": [
       "buzzy_social"
@@ -1104,7 +1104,7 @@ const PLACES = [
     "address": "207 Old Street, EC1V 9NR",
     "hours": "Mon-Thu 8am-11:30pm, Fri 8am-12:30am, Sat 9am-12:30am, Sun 10am-11pm",
     "price": "Hot-desking passes from £10/day incl bottomless coffee/tea",
-    "notes": "All-day dining, industrial features, buzzy atmosphere, meeting-friendly hot desk",
+    "notes": "All-day dining in an industrial-style space with a buzzy atmosphere and a hot desk that's meeting-friendly.",
     "source": "thehandbook.com",
     "vibes": [
       "buzzy_social",
@@ -1130,7 +1130,7 @@ const PLACES = [
     "address": "350 King's Rd, SW3 5UU",
     "hours": "Cafe: Mon-Fri 12-3:15pm, Sat 11am-3:15pm, Sun 11am-6pm; bar Mon-Fri 12pm-12am, Sun 12-6pm",
     "price": "Restaurant prices",
-    "notes": "Bold colours, foliage-filled spaces designed for remote workers",
+    "notes": "Bold colours and foliage-filled spaces, designed with remote workers in mind.",
     "source": "thehandbook.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1154,7 +1154,7 @@ const PLACES = [
     "address": "multiple",
     "hours": "check hours",
     "price": "Affordable lunch deals (~£13-14)",
-    "notes": "Farm-to-table chicken rotisserie, healthy homemade dishes",
+    "notes": "A farm-to-table chicken rotisserie with healthy, homemade dishes.",
     "source": "thehandbook.com",
     "vibes": [
       "cheap_long_stay",
@@ -1179,7 +1179,7 @@ const PLACES = [
     "address": "43-51 Great Titchfield St, W1W 7PQ",
     "hours": "Mon-Fri 7:30am-11pm, Sat 9am-11pm, Sun 9am-5pm",
     "price": "Restaurant prices",
-    "notes": "Cosy booths, three-course lunches, media clientele",
+    "notes": "Cosy booths and three-course lunches, popular with a media crowd.",
     "source": "thehandbook.com",
     "vibes": [
       "meeting_ready",
@@ -1204,7 +1204,7 @@ const PLACES = [
     "address": "multiple locations",
     "hours": "Mon-Fri 8:30am-10pm, Sat 9:30am-10pm, Sun 9:30am-4pm",
     "price": "Restaurant prices",
-    "notes": "On-trend interiors, plant-filled spaces",
+    "notes": "On-trend interiors and plant-filled spaces.",
     "source": "thehandbook.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1228,7 +1228,7 @@ const PLACES = [
     "address": "29 Brewhouse Ln, SW15 2JX",
     "hours": "Sun-Thu 9am-11pm, Fri-Sat 9am-11:30pm",
     "price": "Restaurant prices",
-    "notes": "Riverside terrace, private igloos, quiet corners",
+    "notes": "A riverside terrace with private igloos and quiet corners to work from.",
     "source": "thehandbook.com",
     "vibes": [
       "meeting_ready",
@@ -1255,7 +1255,7 @@ const PLACES = [
     "address": "88 Brixton Rd, SW9 6BE",
     "hours": "check hours",
     "price": "Cafe/restaurant prices",
-    "notes": "Starry Night-inspired ceiling, community-focused, plant-based menu",
+    "notes": "A Starry Night-inspired ceiling, a community focus, and a plant-based menu.",
     "source": "thehandbook.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1279,7 +1279,7 @@ const PLACES = [
     "address": "40 Liverpool St, EC2M 7QN",
     "hours": "Breakfast daily 8:30-11am; lunch Mon-Fri & Sun 12-10pm; Sat brunch 12-4pm & dinner 4-10pm",
     "price": "Restaurant prices",
-    "notes": "Home-baked pastries, small plates, artisan coffee, cocktails",
+    "notes": "Home-baked pastries, small plates, artisan coffee, and cocktails.",
     "source": "thehandbook.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1303,7 +1303,7 @@ const PLACES = [
     "address": "multiple",
     "hours": "check hours",
     "price": "Restaurant prices",
-    "notes": "Explicitly welcomes all-day working, Mediterranean dishes",
+    "notes": "Explicitly welcomes all-day working, with a menu of Mediterranean dishes.",
     "source": "thehandbook.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1327,7 +1327,7 @@ const PLACES = [
     "address": "St Pancras International, N1C 4QL",
     "hours": "Mon-Fri 8am-9pm, Sat 10am-9pm, Sun 11am-5pm",
     "price": "Restaurant prices",
-    "notes": "Charging points, complimentary high-speed wifi, all-day dining",
+    "notes": "Charging points, complimentary high-speed wifi, and all-day dining.",
     "source": "thehandbook.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1351,7 +1351,7 @@ const PLACES = [
     "address": "69-71 Dean St, W1D 3SE",
     "hours": "Mon-Thu 7am-12am, Fri 7am-1am, Sat 8am-1am, Sun 8am-11pm",
     "price": "Restaurant prices",
-    "notes": "Soho House group, writers/creatives crowd, strong coffee focus",
+    "notes": "Part of the Soho House group, popular with writers and creatives, with a strong coffee focus.",
     "source": "thehandbook.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1375,7 +1375,7 @@ const PLACES = [
     "address": "117 Mare St, E8 4RU",
     "hours": "Mon 9am-10pm, Tue-Thu 9am-11pm, Fri-Sat 9am-1:30am, Sun 9am-9pm",
     "price": "Restaurant/food hall prices",
-    "notes": "1950s office conversion, wifi and plug sockets, brunch",
+    "notes": "A converted 1950s office with wifi, plug sockets, and a good brunch.",
     "source": "thehandbook.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1399,7 +1399,7 @@ const PLACES = [
     "address": "80 Houndsditch, EC3A 7AB",
     "hours": "Daily approx 6:30am-10pm",
     "price": "Premium/luxury pricing",
-    "notes": "Pan Pacific hotel, floor-to-ceiling windows, most luxurious remote setup",
+    "notes": "Inside the Pan Pacific hotel, with floor-to-ceiling windows for arguably the most luxurious remote setup around.",
     "source": "thehandbook.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1423,7 +1423,7 @@ const PLACES = [
     "address": "multiple",
     "hours": "varies",
     "price": "Restaurant prices",
-    "notes": "Small plates, sourdough pizzas, industrial interiors, casual",
+    "notes": "Small plates, sourdough pizzas, and casual industrial interiors.",
     "source": "thehandbook.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1447,7 +1447,7 @@ const PLACES = [
     "address": "60 Upper Thames St, EC4V 3AD (The Westin)",
     "hours": "Wed-Sat 4pm-12am",
     "price": "Restaurant/wine bar prices",
-    "notes": "Thames, Bankside, Shakespeare's Globe views",
+    "notes": "Views of the Thames, Bankside, and Shakespeare's Globe.",
     "source": "thehandbook.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1471,7 +1471,7 @@ const PLACES = [
     "address": "1 King's Blvd, N1C 4BU",
     "hours": "Breakfast Mon-Fri 8-11:30am (Sat from 9am, Sun from 10am); Tue-Sun 11am-7pm",
     "price": "Restaurant prices",
-    "notes": "Grade II listed 1866 building, sophisticated, outdoor terrace",
+    "notes": "A sophisticated Grade II listed building from 1866, with an outdoor terrace.",
     "source": "thehandbook.com",
     "vibes": [
       "outdoorsy",
@@ -1496,7 +1496,7 @@ const PLACES = [
     "address": "Bradmore House, Queen Caroline St, W6 9BW",
     "hours": "Mon 9am-5pm; Tue-Wed 9am-10pm; Thu-Fri 9am-10:30pm; Sat 5pm-10:30pm; Sun closed",
     "price": "Restaurant prices",
-    "notes": "Dog-friendly, networking events, seasonal menus",
+    "notes": "Dog-friendly, with networking events and seasonal menus.",
     "source": "thehandbook.com",
     "vibes": [
       "meeting_ready",
@@ -1521,7 +1521,7 @@ const PLACES = [
     "address": "25 Sheldon Square, W2 6EY",
     "hours": "Breakfast Mon-Fri 8-11:30am (Sat-Sun 9-11am); Mon-Thu 12pm-11pm, Fri-Sat 12pm-12am, Sun 12pm-10:30pm",
     "price": "Restaurant prices",
-    "notes": "Free high-speed wifi and plug points, hanging plants",
+    "notes": "Free high-speed wifi and plug points, under hanging plants.",
     "source": "thehandbook.com",
     "vibes": [
       "cheap_long_stay",
@@ -1546,7 +1546,7 @@ const PLACES = [
     "address": "multiple",
     "hours": "varies",
     "price": "Cafe/restaurant prices",
-    "notes": "Instagrammable interiors, coffee-forward, cocktails available",
+    "notes": "Instagrammable interiors, a coffee-forward menu, and cocktails if you fancy one.",
     "source": "thehandbook.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1570,7 +1570,7 @@ const PLACES = [
     "address": "Terminus Pl, SW1W 0RP",
     "hours": "check hours",
     "price": "Restaurant prices",
-    "notes": "Plush, relaxing, near Victoria Station",
+    "notes": "Plush and relaxing, near Victoria Station.",
     "source": "thehandbook.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1594,7 +1594,7 @@ const PLACES = [
     "address": "100-106 Leonard Street, EC2A 4RH",
     "hours": "Wed 5pm-12am, Thu 5pm-2am, Fri 5pm-3am, Sat 12pm-3am (closed Sun-Tue)",
     "price": "Restaurant/bar prices",
-    "notes": "Victorian warehouse conversion, all-day dining, rotating exhibitions",
+    "notes": "A converted Victorian warehouse with all-day dining and rotating exhibitions.",
     "source": "thehandbook.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1618,7 +1618,7 @@ const PLACES = [
     "address": "multiple",
     "hours": "Mon-Wed 7:30am-12am, Thu-Fri 7:30am-1am, Sat 10am-1am, Sun 10am-6pm (King's Cross branch)",
     "price": "Restaurant prices",
-    "notes": "Restaurant-grade menu, work-friendly",
+    "notes": "A restaurant-grade menu in a work-friendly space.",
     "source": "thehandbook.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1642,7 +1642,7 @@ const PLACES = [
     "address": "multiple",
     "hours": "Weekday coworking hours",
     "price": "Coworking + cafe prices",
-    "notes": "Weekday coworking with coffee and small plates, rooftop access",
+    "notes": "Weekday coworking with coffee and small plates, plus rooftop access.",
     "source": "thehandbook.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1666,7 +1666,7 @@ const PLACES = [
     "address": "Harrods, Knightsbridge",
     "hours": "Store hours",
     "price": "Fine dining prices",
-    "notes": "Light, breezy French restaurant, striking views",
+    "notes": "A light, breezy French restaurant with striking views.",
     "source": "londonperfect.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1690,7 +1690,7 @@ const PLACES = [
     "address": "Liberty, Great Marlborough St",
     "hours": "Store hours",
     "price": "Fine dining prices",
-    "notes": "Art Deco-style restaurant, escape from shopping crowds",
+    "notes": "An Art Deco-style restaurant, a good escape from the shopping crowds.",
     "source": "londonperfect.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1714,7 +1714,7 @@ const PLACES = [
     "address": "Harvey Nichols, Knightsbridge",
     "hours": "Store hours",
     "price": "Cocktail bar prices",
-    "notes": "Trendy, styled like a glossy magazine",
+    "notes": "Trendy, styled like the pages of a glossy magazine.",
     "source": "londonperfect.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1738,7 +1738,7 @@ const PLACES = [
     "address": "Selfridges, Oxford St",
     "hours": "Store hours",
     "price": "Bistro prices",
-    "notes": "Chic French bistro, great for people-watching",
+    "notes": "A chic French bistro, great for people-watching.",
     "source": "londonperfect.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1762,7 +1762,7 @@ const PLACES = [
     "address": "Selfridges, Oxford St",
     "hours": "Store hours",
     "price": "Premium seafood prices",
-    "notes": "Upscale seafood destination",
+    "notes": "An upscale seafood destination.",
     "source": "londonperfect.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1786,7 +1786,7 @@ const PLACES = [
     "address": "Fortnum & Mason, Jermyn St",
     "hours": "Store hours",
     "price": "Fine dining prices",
-    "notes": "Glamorous dining, roving caviar trolley",
+    "notes": "Glamorous dining, complete with a roving caviar trolley.",
     "source": "londonperfect.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1810,7 +1810,7 @@ const PLACES = [
     "address": "Harrods, Knightsbridge",
     "hours": "Store hours",
     "price": "Champagne bar prices",
-    "notes": "Sophisticated fizz bar",
+    "notes": "A sophisticated champagne and fizz bar.",
     "source": "londonperfect.com",
     "vibes": [
       "pretty_aesthetic",
@@ -1834,7 +1834,7 @@ const PLACES = [
     "address": "28 Warren Street, London W1T 5ND",
     "hours": "Mon-Fri 12pm-11pm",
     "price": "Pub prices",
-    "notes": "Georgian interior, casual, background music, wifi, dog-friendly",
+    "notes": "A casual Georgian pub with background music, wifi, and a dog-friendly welcome.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -1858,7 +1858,7 @@ const PLACES = [
     "address": "15 Denman Street, London W1D 7HN",
     "hours": "Mon-Fri 11am-11:30pm (Fri to 12am)",
     "price": "Pub prices",
-    "notes": "Victorian features, wifi, no food currently",
+    "notes": "Victorian features and wifi, though there's no food on offer currently.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -1882,7 +1882,7 @@ const PLACES = [
     "address": "84-86 Essex Road, London N1 8LU",
     "hours": "Mon-Fri 12pm-11pm",
     "price": "Pub prices",
-    "notes": "Relaxed and inclusive, wooden flooring, wifi, dog-friendly",
+    "notes": "Relaxed and inclusive, with wooden flooring, wifi, and a dog-friendly welcome.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -1906,7 +1906,7 @@ const PLACES = [
     "address": "33 Linton Street, London N1 7DU",
     "hours": "Mon-Fri 12pm-11pm",
     "price": "Pub prices",
-    "notes": "STANDOUT: dedicated co-working space Mon-Fri, lots of power sockets, strong wifi, great lighting, print facilities, dog-friendly",
+    "notes": "A standout spot with a dedicated co-working space Monday to Friday — plenty of power sockets, strong wifi, great natural light, printing facilities, and dog-friendly too.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -1930,7 +1930,7 @@ const PLACES = [
     "address": "58 Stamford Hill, London N16 6XS",
     "hours": "Mon-Wed to 10:30pm; Thu-Fri to 11pm",
     "price": "Pub prices",
-    "notes": "Big windows, natural light, free wifi, dog-friendly",
+    "notes": "Big windows and natural light, with free wifi and a dog-friendly welcome.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -1954,7 +1954,7 @@ const PLACES = [
     "address": "504 Holloway Road, London N7 6JA",
     "hours": "Mon-Fri 11am-11pm (Fri to 1am)",
     "price": "Pub prices",
-    "notes": "Comfortable, free wifi, breakfast/brunch and lunch options",
+    "notes": "Comfortable, with free wifi and breakfast, brunch, and lunch options.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -1978,7 +1978,7 @@ const PLACES = [
     "address": "269 Westferry Road, Isle of Dogs, London E14 3RS",
     "hours": "Fri 12pm-12am (Mon-Fri 5pm-11pm)",
     "price": "Pub prices",
-    "notes": "Atmospheric, intimate, high-speed wifi",
+    "notes": "Atmospheric and intimate, with high-speed wifi.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2002,7 +2002,7 @@ const PLACES = [
     "address": "171 Devons Road, Bow, London E3 3QX",
     "hours": "Tue 2pm-11pm; Wed-Thu 4pm-11pm; Fri 12pm-12am",
     "price": "Pub prices",
-    "notes": "Eclectic, laptop-friendly, free wifi (50+ Mbps), electrical adapters provided",
+    "notes": "Eclectic and laptop-friendly, with free wifi over 50 Mbps and electrical adapters provided.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2026,7 +2026,7 @@ const PLACES = [
     "address": "320 Hale End Road, Woodford Green, London IG8 9LN",
     "hours": "Mon-Fri 11am-11pm (Fri to 12pm)",
     "price": "Pub prices",
-    "notes": "Welcoming, vibrant beer garden, wifi, dog-friendly",
+    "notes": "Welcoming, with a vibrant beer garden, wifi, and a dog-friendly welcome.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2052,7 +2052,7 @@ const PLACES = [
     "address": "8 Flamborough Street, London E14 7LS",
     "hours": "Mon-Thu 12pm-11:30pm (Fri to 12am)",
     "price": "Pub prices",
-    "notes": "Historic East End atmosphere, wifi, dog-friendly",
+    "notes": "A historic East End atmosphere, with wifi and a dog-friendly welcome.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2076,7 +2076,7 @@ const PLACES = [
     "address": "116 Bow Road, London E3 3AA",
     "hours": "Mon-Thu 12pm-12am (Fri to 1am)",
     "price": "Pub prices",
-    "notes": "Proper East End boozer, wifi, pool table",
+    "notes": "A proper East End boozer with wifi and a pool table.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2100,7 +2100,7 @@ const PLACES = [
     "address": "226 Shoreditch High Street, London E1 6PJ",
     "hours": "Mon-Fri 12pm-11pm (Fri to 1am)",
     "price": "Pub prices",
-    "notes": "Shoreditch institution, wifi, heated beer garden, dog-friendly",
+    "notes": "A Shoreditch institution with wifi, a heated beer garden, and a dog-friendly welcome.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2126,7 +2126,7 @@ const PLACES = [
     "address": "416-418 Mare Street, London E8 1HP",
     "hours": "Mon-Fri 11am-11pm (Fri to 12am)",
     "price": "Pub prices",
-    "notes": "Cosy, intimate, wifi, tiny beer garden, dog-friendly",
+    "notes": "Cosy and intimate, with wifi, a tiny beer garden, and a dog-friendly welcome.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2152,7 +2152,7 @@ const PLACES = [
     "address": "251 Tooley Street, London SE1 2JX",
     "hours": "Mon-Fri 12pm-11pm (Mon from 4pm)",
     "price": "Pub prices",
-    "notes": "Changing art exhibitions, free wifi in all public areas, dog-friendly",
+    "notes": "Changing art exhibitions, free wifi throughout, and a dog-friendly welcome.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2176,7 +2176,7 @@ const PLACES = [
     "address": "243 Union Street, London SE1 0LR",
     "hours": "Tue-Fri 12pm-11pm (Mon & Fri from 4pm)",
     "price": "Pub prices",
-    "notes": "Quirky, quieter weekday afternoons, famous burgers, wifi, dog-friendly",
+    "notes": "Quirky and quieter on weekday afternoons, with famous burgers, wifi, and a dog-friendly welcome.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2200,7 +2200,7 @@ const PLACES = [
     "address": "98 Harper Road, London SE1 6AQ",
     "hours": "Mon-Fri 12pm-11pm (Thu-Fri to 1am)",
     "price": "Pub prices",
-    "notes": "STANDOUT: calm during day, plenty of power sockets, free Americano refills noon-5pm",
+    "notes": "A standout spot that's calm during the day, with plenty of power sockets and free Americano refills from noon to 5pm.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2225,7 +2225,7 @@ const PLACES = [
     "address": "9 Lewisham Way, New Cross, London SE14 6PP",
     "hours": "Tue-Fri 3pm-12am",
     "price": "Pub prices",
-    "notes": "Relaxed, serene upstairs, comfy chairs, free wifi, dog-friendly",
+    "notes": "Relaxed, with a serene upstairs area, comfy chairs, free wifi, and a dog-friendly welcome.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2250,7 +2250,7 @@ const PLACES = [
     "address": "116 Prince Street, Deptford, London SE8 3JD",
     "hours": "Mon-Fri 11am-12am (Fri to 1am)",
     "price": "Pub prices",
-    "notes": "Homely, quiet daytime, roaring fire, beer garden",
+    "notes": "Homely and quiet during the day, with a roaring fire and a beer garden.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2277,7 +2277,7 @@ const PLACES = [
     "address": "202 Ivydale Road, Nunhead, London SE15 3BU",
     "hours": "Mon-Tue & Wed-Fri 4pm-11pm",
     "price": "Pub prices",
-    "notes": "Explicitly invites use as office space, vibrant community pub, dog-friendly",
+    "notes": "Explicitly invites you to use it as office space, a vibrant community pub that's dog-friendly too.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2301,7 +2301,7 @@ const PLACES = [
     "address": "68 Borough Road, London SE1 1DX",
     "hours": "Mon-Fri 12pm-11pm (Fri to 12am)",
     "price": "Pub prices",
-    "notes": "Free wifi and plug sockets, fantastic beer garden",
+    "notes": "Free wifi and plug sockets, plus a fantastic beer garden.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2327,7 +2327,7 @@ const PLACES = [
     "address": "32 Waterman Street, Putney, London SW15 1DD",
     "hours": "Mon-Fri 2pm-11pm (Fri from 12pm)",
     "price": "Pub prices",
-    "notes": "Traditional, cosy fireplace, free wifi, dog-friendly, beer garden",
+    "notes": "Traditional, with a cosy fireplace, free wifi, a dog-friendly welcome, and a beer garden.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2353,7 +2353,7 @@ const PLACES = [
     "address": "44 Lambeth High Street, London SE1 7JS",
     "hours": "Mon-Fri 11:30am-11pm",
     "price": "Pub prices",
-    "notes": "Hidden gem, quiet street, historic atmosphere, wifi, dog-friendly",
+    "notes": "A hidden gem on a quiet street, with a historic atmosphere, wifi, and a dog-friendly welcome.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2378,7 +2378,7 @@ const PLACES = [
     "address": "320 Goldhawk Road, Hammersmith, London W6 0XF",
     "hours": "Mon-Thu 12pm-11pm (Fri to 12am)",
     "price": "Pub prices",
-    "notes": "Warm, welcoming, calm daytime, wifi, dog-friendly",
+    "notes": "Warm and welcoming, calm during the day, with wifi and a dog-friendly welcome.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2403,7 +2403,7 @@ const PLACES = [
     "address": "84-86 Earls Court Road, Kensington, London W8 6EG",
     "hours": "Mon-Fri 12pm-11pm",
     "price": "Pub prices",
-    "notes": "Stylish, friendly, off the beaten path, wifi, dog-friendly",
+    "notes": "Stylish and friendly, off the beaten path, with wifi and a dog-friendly welcome.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2427,7 +2427,7 @@ const PLACES = [
     "address": "269 Uxbridge Road, Shepherd's Bush, London W12 9DS",
     "hours": "Tue-Fri 12pm-11pm",
     "price": "Pub prices",
-    "notes": "Charming, warm rustic atmosphere, fish and chips",
+    "notes": "Charming, with a warm, rustic atmosphere and good fish and chips.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2451,7 +2451,7 @@ const PLACES = [
     "address": "128 Broadway, West Ealing, London W13 0SY",
     "hours": "Tue-Fri 11am-10:45pm (Fri to 12:45am)",
     "price": "Pub prices",
-    "notes": "Rustic wooden panels, cosy, wifi, dog-friendly, lamb stew",
+    "notes": "Rustic wooden panels and a cosy feel, with wifi, a dog-friendly welcome, and a good lamb stew.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2475,7 +2475,7 @@ const PLACES = [
     "address": "Green Lane, Hanwell, London W7 2PJ",
     "hours": "Mon-Fri 12pm-11pm (Fri to 12am)",
     "price": "Pub prices",
-    "notes": "Former Royal Brewery House, canal-side, wifi, dog-friendly, beer garden",
+    "notes": "A former Royal Brewery House by the canal, with wifi, a dog-friendly welcome, and a beer garden.",
     "source": "citystack.co",
     "vibes": [
       "buzzy_social",
@@ -2501,7 +2501,7 @@ const PLACES = [
     "address": "1 Richmond Mews, W1D 3DA",
     "hours": "Business hours",
     "price": "Day pass ~£40-45 (verify)",
-    "notes": "Central Soho coworking with day-pass access",
+    "notes": "Central Soho coworking with day-pass access.",
     "source": "onecoworking.com",
     "vibes": [
       "meeting_ready"
@@ -2524,7 +2524,7 @@ const PLACES = [
     "address": "34-37 Liverpool Street, EC2M 7PP",
     "hours": "Business hours",
     "price": "Day pass ~£50-58 (verify)",
-    "notes": "City-edge coworking, premium fit-out",
+    "notes": "City-edge coworking with a premium fit-out.",
     "source": "onecoworking.com",
     "vibes": [
       "meeting_ready",
@@ -2548,7 +2548,7 @@ const PLACES = [
     "address": "126 New King's Road, SW6 4LZ",
     "hours": "Business hours",
     "price": "Day pass ~£40-46 (verify)",
-    "notes": "Premium coworking chain",
+    "notes": "Part of the premium Uncommon coworking chain.",
     "source": "onecoworking.com",
     "vibes": [
       "meeting_ready",
@@ -2572,7 +2572,7 @@ const PLACES = [
     "address": "25 Horsell Road, London N5 1XL",
     "hours": "Business hours",
     "price": "Day pass £50-80 (chain range)",
-    "notes": "Premium coworking chain",
+    "notes": "Part of the premium Uncommon coworking chain.",
     "source": "mindspace.me",
     "vibes": [
       "meeting_ready",
@@ -2596,7 +2596,7 @@ const PLACES = [
     "address": "81-87 High Holborn, London WC1V 6DF",
     "hours": "Business hours",
     "price": "Day pass £50-80 (chain range)",
-    "notes": "Premium coworking chain",
+    "notes": "Part of the premium Uncommon coworking chain.",
     "source": "mindspace.me",
     "vibes": [
       "meeting_ready",
@@ -2620,7 +2620,7 @@ const PLACES = [
     "address": "1 Long Lane, London SE1 4PG",
     "hours": "Business hours",
     "price": "Day pass £50-80 (chain range)",
-    "notes": "Premium coworking chain",
+    "notes": "Part of the premium Uncommon coworking chain.",
     "source": "mindspace.me",
     "vibes": [
       "meeting_ready",
@@ -2644,7 +2644,7 @@ const PLACES = [
     "address": "50 Station Road, N22 7DE",
     "hours": "Business hours",
     "price": "Day pass ~£25-29",
-    "notes": "Budget-friendly coworking",
+    "notes": "Budget-friendly coworking.",
     "source": "onecoworking.com",
     "vibes": [
       "cheap_long_stay",
@@ -2668,7 +2668,7 @@ const PLACES = [
     "address": "30 Tweedy Road, BR1 3FE",
     "hours": "Business hours",
     "price": "Day pass ~£25",
-    "notes": "Budget-friendly, outer south-east London",
+    "notes": "Budget-friendly coworking out in south-east London.",
     "source": "onecoworking.com",
     "vibes": [
       "cheap_long_stay",
@@ -2692,7 +2692,7 @@ const PLACES = [
     "address": "9 Appold Street, EC2A 2AP",
     "hours": "Business hours",
     "price": "Day pass - price not listed, verify",
-    "notes": "Premium coworking brand",
+    "notes": "Part of the premium Mindspace coworking brand.",
     "source": "mindspace.me",
     "vibes": [
       "meeting_ready",
@@ -2716,7 +2716,7 @@ const PLACES = [
     "address": "142-146 Old Street",
     "hours": "Business hours",
     "price": "Day pass - price not listed, verify",
-    "notes": "Premium coworking brand",
+    "notes": "Part of the premium Mindspace coworking brand.",
     "source": "mindspace.me",
     "vibes": [
       "meeting_ready",
@@ -2740,7 +2740,7 @@ const PLACES = [
     "address": "Waverley House, 9 Noel Street, London W1F 8GQ",
     "hours": "Business hours",
     "price": "£4/hour or day pass £35-65",
-    "notes": "Popular flexible coworking chain",
+    "notes": "Part of the popular, flexible Work.Life coworking chain.",
     "source": "mindspace.me",
     "vibes": [
       "meeting_ready"
@@ -2763,7 +2763,7 @@ const PLACES = [
     "address": "Rivington House, 82 Great Eastern Street, London EC2A 3JF",
     "hours": "Business hours",
     "price": "£4/hour or day pass £35-65",
-    "notes": "Popular flexible coworking chain",
+    "notes": "Part of the popular, flexible Work.Life coworking chain.",
     "source": "mindspace.me",
     "vibes": [
       "meeting_ready"
@@ -2786,7 +2786,7 @@ const PLACES = [
     "address": "140-148 Borough High Street, London SE1 1LB",
     "hours": "Business hours",
     "price": "£4/hour or day pass £35-65",
-    "notes": "Popular flexible coworking chain",
+    "notes": "Part of the popular, flexible Work.Life coworking chain.",
     "source": "mindspace.me",
     "vibes": [
       "meeting_ready"
@@ -2809,7 +2809,7 @@ const PLACES = [
     "address": "13 Hawley Crescent, London NW1 8NP",
     "hours": "Business hours",
     "price": "£4/hour or day pass £35-65",
-    "notes": "Popular flexible coworking chain",
+    "notes": "Part of the popular, flexible Work.Life coworking chain.",
     "source": "mindspace.me",
     "vibes": [
       "meeting_ready"
@@ -2832,7 +2832,7 @@ const PLACES = [
     "address": "14-18 Finsbury Square, London EC2A 1AH",
     "hours": "Business hours",
     "price": "Day pass - price not listed, verify",
-    "notes": "Design-led coworking chain",
+    "notes": "Part of the design-led Huckletree coworking chain.",
     "source": "mindspace.me",
     "vibes": [
       "meeting_ready"
@@ -2855,7 +2855,7 @@ const PLACES = [
     "address": "1 Horse Guards Avenue",
     "hours": "Business hours",
     "price": "Day pass - price not listed, verify",
-    "notes": "Design-led coworking chain",
+    "notes": "Part of the design-led Huckletree coworking chain.",
     "source": "mindspace.me",
     "vibes": [
       "meeting_ready"
@@ -2878,7 +2878,7 @@ const PLACES = [
     "address": "191 Wood Lane, London W12 7FP",
     "hours": "Business hours",
     "price": "Day pass - price not listed, verify",
-    "notes": "Design-led coworking chain",
+    "notes": "Part of the design-led Huckletree coworking chain.",
     "source": "mindspace.me",
     "vibes": [
       "meeting_ready"
@@ -2901,7 +2901,7 @@ const PLACES = [
     "address": "Chancery House",
     "hours": "Business hours",
     "price": "Day pass - price not listed, verify",
-    "notes": "Design-led premium coworking chain",
+    "notes": "Part of the design-led, premium FORA coworking chain.",
     "source": "mindspace.me",
     "vibes": [
       "meeting_ready",
@@ -2925,7 +2925,7 @@ const PLACES = [
     "address": "Douglas House",
     "hours": "Business hours",
     "price": "Day pass - price not listed, verify",
-    "notes": "Design-led premium coworking chain",
+    "notes": "Part of the design-led, premium FORA coworking chain.",
     "source": "mindspace.me",
     "vibes": [
       "meeting_ready",
@@ -2949,7 +2949,7 @@ const PLACES = [
     "address": "Borough Road",
     "hours": "Business hours",
     "price": "Day pass - price not listed, verify",
-    "notes": "South London coworking",
+    "notes": "A south London coworking space.",
     "source": "mindspace.me",
     "vibes": [
       "meeting_ready"
@@ -2972,7 +2972,7 @@ const PLACES = [
     "address": "Euston Road, NW1 2DB",
     "hours": "Mon-Thu 9:30am-8pm; Fri 9:30am-6pm; Sat 9:30am-5pm; Sun 11am-5pm",
     "price": "Free (public spaces)",
-    "notes": "Iconic, big open desks, gets busy, no food inside reading rooms",
+    "notes": "Iconic and busy, with big open desks, though no food is allowed inside the reading rooms.",
     "source": "timeout.com",
     "vibes": [
       "buzzy_social",
@@ -2997,7 +2997,7 @@ const PLACES = [
     "address": "Beech Street, EC2Y 8AE",
     "hours": "Mon 9:30-5:30; Tue/Thu 9:30-7:30; Wed/Fri 9:30-5:30; Sat 9:30-4",
     "price": "Free (photo ID + bill for membership)",
-    "notes": "Calm, arts-adjacent",
+    "notes": "Calm and arts-adjacent.",
     "source": "timeout.com",
     "vibes": [
       "cheap_long_stay",
@@ -3022,7 +3022,7 @@ const PLACES = [
     "address": "Malet St, WC1E 7HU",
     "hours": "Mon-Fri 9am-11pm; Sat/Sun 9:45am-9pm",
     "price": "£5 day ticket or £130/yr",
-    "notes": "Long hours, good for late sessions",
+    "notes": "Long opening hours, good for late working sessions.",
     "source": "timeout.com",
     "vibes": [
       "quiet_focused",
@@ -3046,7 +3046,7 @@ const PLACES = [
     "address": "183 Euston Road, NW1 2BE",
     "hours": "Mon-Wed 10-6; Thu 10-8; Fri 10-6; Sat 10-4",
     "price": "Free (membership: photo ID + bill)",
-    "notes": "Calm reading room",
+    "notes": "A calm reading room.",
     "source": "timeout.com",
     "vibes": [
       "cheap_long_stay",
@@ -3071,7 +3071,7 @@ const PLACES = [
     "address": "Royal Festival Hall, Belvedere Rd, SE1 8XX",
     "hours": "Tue 12-6pm; Wed-Sun 12-8pm",
     "price": "Free",
-    "notes": "Quiet reading room inside Southbank Centre",
+    "notes": "A quiet reading room inside the Southbank Centre.",
     "source": "timeout.com",
     "vibes": [
       "cheap_long_stay",
@@ -3095,7 +3095,7 @@ const PLACES = [
     "address": "Belvedere Road, SE1 8XT",
     "hours": "Tue-Sat 11am-7pm",
     "price": "Free / pre-booked sessions",
-    "notes": "Film-focused reading room",
+    "notes": "A film-focused reading room at the BFI.",
     "source": "timeout.com",
     "vibes": [
       "cheap_long_stay",
@@ -3119,7 +3119,7 @@ const PLACES = [
     "address": "Cambridge Heath Road, E2 0HL",
     "hours": "Mon-Wed 10am-6pm; Thu 10am-8pm; Sat 9am-5pm",
     "price": "Free (photo ID + bill)",
-    "notes": "Local public library",
+    "notes": "A local public library.",
     "source": "timeout.com",
     "vibes": [
       "cheap_long_stay",
@@ -3143,7 +3143,7 @@ const PLACES = [
     "address": "21 Surrey Quays Road, SE16 7AR",
     "hours": "Mon-Fri 8am-8pm; Sat 9am-5pm; Sun 12-4pm",
     "price": "Free (photo ID + bill)",
-    "notes": "Modern riverside library, long weekday hours",
+    "notes": "A modern riverside library with long weekday hours.",
     "source": "timeout.com",
     "vibes": [
       "cheap_long_stay",
@@ -3168,7 +3168,7 @@ const PLACES = [
     "address": "122 Peckham Hill Street, SE15 5JR",
     "hours": "Mon/Tue/Thu/Fri 9am-8pm; Wed 10am-8pm; Sat 10am-5pm; Sun 12-4pm",
     "price": "Free",
-    "notes": "Striking architecture, long hours",
+    "notes": "Striking architecture and long opening hours.",
     "source": "timeout.com",
     "vibes": [
       "cheap_long_stay",
@@ -3192,7 +3192,7 @@ const PLACES = [
     "address": "146 Greenwich High Road, SE10 8NN",
     "hours": "Mon 2-7pm, Tue 9am-5:30pm, Wed closed, Thu 9am-7pm, Fri 2-5:30pm, Sat 9am-5pm, Sun closed",
     "price": "Free",
-    "notes": "Local library",
+    "notes": "A local library.",
     "source": "timeout.com",
     "vibes": [
       "cheap_long_stay",
@@ -3216,7 +3216,7 @@ const PLACES = [
     "address": "88 Avenue Road, NW3 3HA",
     "hours": "Mon-Thu 10-8; Fri-Sat 10-5",
     "price": "Free (photo ID + bill)",
-    "notes": "Modern public library",
+    "notes": "A modern public library.",
     "source": "timeout.com",
     "vibes": [
       "cheap_long_stay",
@@ -3240,7 +3240,7 @@ const PLACES = [
     "address": "12 Phillimore Walk, W8 7RX",
     "hours": "Mon/Tue/Thu 9:30-8; Wed 10-5; Fri/Sat 9:30-5",
     "price": "Free (photo ID + bill)",
-    "notes": "Local library",
+    "notes": "A local library.",
     "source": "citystack.co",
     "vibes": [
       "cheap_long_stay",
@@ -3264,7 +3264,7 @@ const PLACES = [
     "address": "14 St James's Square, SW1Y 4LG",
     "hours": "Mon-Tue 9:30-9; Wed-Sat 9:30-5:30",
     "price": "Subscription £575/yr or £287.50 (16-29)",
-    "notes": "NOT casual drop-in - annual membership required, beautiful reading rooms, very quiet",
+    "notes": "Not a casual drop-in — an annual membership is required — but the reading rooms are beautiful and very quiet.",
     "source": "timeout.com",
     "vibes": [
       "meeting_ready",
@@ -3289,7 +3289,7 @@ const PLACES = [
     "address": "Cromwell Road, SW7 2RL",
     "hours": "Main Cafe 10am-5pm (Fri to 9pm); Garden Cafe 11am-3:30pm",
     "price": "Cafe prices",
-    "notes": "Historic (opened 1856), ornate refreshment rooms, grand prints and ceramic tiles",
+    "notes": "Historic (it opened in 1856), with ornate refreshment rooms and grand prints and ceramic tiles.",
     "source": "foodism.co.uk",
     "vibes": [
       "pretty_aesthetic",
@@ -3313,7 +3313,7 @@ const PLACES = [
     "address": "SE1 9TG",
     "hours": "Mon-Thu & Sun 10am-5:30pm; Fri-Sat 10am-5pm & 6pm-9:30pm",
     "price": "Restaurant prices",
-    "notes": "Exhibition-inspired seasonal menus",
+    "notes": "Seasonal menus inspired by whatever's on exhibition.",
     "source": "foodism.co.uk",
     "vibes": [
       "pretty_aesthetic",
@@ -3337,7 +3337,7 @@ const PLACES = [
     "address": "224-238 Kensington High Street, W8 6AG",
     "hours": "Mon-Wed 10am-11pm, Thu-Sat 10am-11:30pm, Sun 10am-6pm",
     "price": "Restaurant prices",
-    "notes": "Polished, elegant, all-day venue with Holland Park views",
+    "notes": "Polished and elegant, an all-day venue with views over Holland Park.",
     "source": "foodism.co.uk",
     "vibes": [
       "pretty_aesthetic",
@@ -3361,7 +3361,7 @@ const PLACES = [
     "address": "5 Lambeth Palace Road, SE1 7LB",
     "hours": "Daily 10am-5pm (dinner Tue & Fri 5:30/6-9pm)",
     "price": "Cafe/restaurant prices",
-    "notes": "Hyper-seasonal daily menu, refined contemporary space, leafy setting",
+    "notes": "A hyper-seasonal daily menu in a refined, contemporary space with a leafy setting.",
     "source": "foodism.co.uk",
     "vibes": [
       "pretty_aesthetic",
@@ -3385,7 +3385,7 @@ const PLACES = [
     "address": "Sainsbury Wing, National Gallery, Trafalgar Square, London WC2N 5DN",
     "hours": "Mon-Thu & Sat-Sun 10am-5pm, Fri 10am-9pm",
     "price": "Restaurant prices",
-    "notes": "Museum restaurant, central location",
+    "notes": "A museum restaurant in a central location.",
     "source": "foodism.co.uk",
     "vibes": [
       "pretty_aesthetic",
@@ -3409,7 +3409,7 @@ const PLACES = [
     "address": "44 Great Russell St, WC1B 3DG",
     "hours": "Mon-Thu & Sat 10am-5:30pm, Fri 10am-8:30pm; lunch daily 11:30am-3pm",
     "price": "Free entry to Great Court; cafe prices for food",
-    "notes": "Vast glass-roofed courtyard, public seating, can be busy with tourists",
+    "notes": "A vast, glass-roofed courtyard with public seating, though it can get busy with tourists.",
     "source": "foodism.co.uk",
     "vibes": [
       "buzzy_social",
@@ -3436,7 +3436,7 @@ const PLACES = [
     "address": "The Mall, SW1Y 5AH",
     "hours": "Tue-Sun 11am-11pm",
     "price": "Restaurant prices",
-    "notes": "Unfussy British cuisine inside the ICA",
+    "notes": "Unfussy British cuisine inside the ICA.",
     "source": "foodism.co.uk",
     "vibes": [
       "pretty_aesthetic",
@@ -3460,7 +3460,7 @@ const PLACES = [
     "address": "SE11 6AJ",
     "hours": "Tue-Sun 10am-6pm (closed Mon)",
     "price": "Restaurant prices",
-    "notes": "Eclectic, artistic, colourful space, seasonal British-European fare",
+    "notes": "An eclectic, colourful, artistic space with seasonal British-European fare.",
     "source": "foodism.co.uk",
     "vibes": [
       "pretty_aesthetic",
@@ -3484,7 +3484,7 @@ const PLACES = [
     "address": "Bloomsbury Square, London WC1A 2RJ",
     "hours": "Daylight hours, public",
     "price": "Free",
-    "notes": "Peaceful communal green space open to the public",
+    "notes": "A peaceful communal green space, open to the public.",
     "source": "walks.com",
     "vibes": [
       "cheap_long_stay",
@@ -3508,7 +3508,7 @@ const PLACES = [
     "address": "Cavendish Square, London W1G 0LD",
     "hours": "Daylight hours, public",
     "price": "Free",
-    "notes": "Public square near Oxford Street and Regent's Park",
+    "notes": "A public square near Oxford Street and Regent's Park.",
     "source": "walks.com",
     "vibes": [
       "cheap_long_stay",
@@ -3532,7 +3532,7 @@ const PLACES = [
     "address": "Bedford Square, London WC1B 3RA",
     "hours": "Daylight hours, public",
     "price": "Free",
-    "notes": "Only London garden square designed as a coherent whole",
+    "notes": "The only London garden square designed as a coherent whole.",
     "source": "walks.com",
     "vibes": [
       "cheap_long_stay",
@@ -3557,7 +3557,7 @@ const PLACES = [
     "address": "Trinity Church Square, London SE1 4HT",
     "hours": "Daylight hours, public",
     "price": "Free",
-    "notes": "Unexpected quiet find behind Borough High Street",
+    "notes": "An unexpected, quiet find tucked behind Borough High Street.",
     "source": "walks.com",
     "vibes": [
       "cheap_long_stay",
@@ -3582,7 +3582,7 @@ const PLACES = [
     "address": "Berkeley Square, London W1J 6BR",
     "hours": "Daylight hours, public",
     "price": "Free",
-    "notes": "Grade II listed square, public access",
+    "notes": "A Grade II listed square with public access.",
     "source": "walks.com",
     "vibes": [
       "cheap_long_stay",
@@ -3606,7 +3606,7 @@ const PLACES = [
     "address": "90 Duke of York Square, SW3 4RY",
     "hours": "Mon-Fri 7:30am-10:30pm, Sat 9am-10:30pm, Sun 9am-9pm",
     "price": "Cafe prices",
-    "notes": "Upscale terrace overlooking the square, people-watching",
+    "notes": "An upscale terrace overlooking the square, great for people-watching.",
     "source": "theinfatuation.com",
     "vibes": [
       "outdoorsy",
@@ -3630,7 +3630,7 @@ const PLACES = [
     "address": "100 Islington High Street, N1 8EG",
     "hours": "Mon-Fri 11am-8pm, Sat-Sun 10am-8pm",
     "price": "Cafe prices",
-    "notes": "Peaceful Japanese tea room with leafy back garden",
+    "notes": "A peaceful Japanese tea room with a leafy back garden.",
     "source": "theinfatuation.com",
     "vibes": [
       "outdoorsy",
@@ -3654,7 +3654,7 @@ const PLACES = [
     "address": "Soane Stable Yard, Royal Hospital Rd, SW3 4SR",
     "hours": "Mon-Sat 8am-5pm, Sun 9am-5pm",
     "price": "Cafe prices",
-    "notes": "Suntrap courtyard, tempting pastries",
+    "notes": "A suntrap courtyard with tempting pastries.",
     "source": "theinfatuation.com",
     "vibes": [
       "outdoorsy",
@@ -3678,7 +3678,7 @@ const PLACES = [
     "address": "49 Parkgate Road, SW11 4NP",
     "hours": "Mon-Tue 7:30am-4pm, Wed-Fri 7:30am-9pm, Sat-Sun 8am-4pm",
     "price": "Cafe prices",
-    "notes": "Bright spot near the park, Aussie-style brunch",
+    "notes": "A bright spot near the park, with Aussie-style brunch.",
     "source": "theinfatuation.com",
     "vibes": [
       "outdoorsy",
@@ -3702,7 +3702,7 @@ const PLACES = [
     "address": "249B Mare Street, E8 3NS",
     "hours": "Mon-Fri 7am-3:30pm, Sat-Sun 8am-3:30pm",
     "price": "Cafe prices",
-    "notes": "Neighbourhood spot with benches, good for sunny days",
+    "notes": "A neighbourhood spot with benches, good for sunny days.",
     "source": "theinfatuation.com",
     "vibes": [
       "outdoorsy",
@@ -3726,7 +3726,7 @@ const PLACES = [
     "address": "3 Hillgate St, W8 7SP",
     "hours": "Mon-Sat 7am-5pm, Sun 8am-5pm",
     "price": "Cafe prices",
-    "notes": "Bench outside, great mocha",
+    "notes": "A bench outside and a great mocha.",
     "source": "theinfatuation.com",
     "vibes": [
       "outdoorsy",
@@ -3750,7 +3750,7 @@ const PLACES = [
     "address": "1 Northington Street, WC1N 2JE",
     "hours": "Mon-Fri 7:30am-5pm, Sat-Sun 8:30am-5pm",
     "price": "Cafe prices",
-    "notes": "Suntrap terrace in Bloomsbury, creative iced lattes",
+    "notes": "A suntrap terrace in Bloomsbury, with creative iced lattes.",
     "source": "theinfatuation.com",
     "vibes": [
       "outdoorsy",
@@ -3774,7 +3774,7 @@ const PLACES = [
     "address": "19 Motcomb Street, SW1X 8JT",
     "hours": "Mon-Fri 8:30am-8pm, Sat 9am-8pm, Sun 9am-6pm",
     "price": "Cafe prices",
-    "notes": "Coffee hatch with fairy lights, iced Spanish matcha",
+    "notes": "A coffee hatch strung with fairy lights, known for its iced Spanish matcha.",
     "source": "theinfatuation.com",
     "vibes": [
       "outdoorsy",
@@ -3798,7 +3798,7 @@ const PLACES = [
     "address": "21 Halliford Street, N1 3HB",
     "hours": "Daily from 7am weekdays, 8am weekends",
     "price": "Cafe prices",
-    "notes": "Curved stone bench in courtyard garden, sunny",
+    "notes": "A curved stone bench in a sunny courtyard garden.",
     "source": "theinfatuation.com",
     "vibes": [
       "outdoorsy",
@@ -3822,7 +3822,7 @@ const PLACES = [
     "address": "Victoria Park, E9 7DE",
     "hours": "Summer: Mon-Fri 8:30am-5pm, Sat-Sun 8:30am-6pm; winter: daily 8:30am-4pm",
     "price": "Cafe prices",
-    "notes": "Lakeside spot, greenery, poached eggs",
+    "notes": "A lakeside spot surrounded by greenery, known for its poached eggs.",
     "source": "theinfatuation.com",
     "vibes": [
       "outdoorsy",
@@ -3846,7 +3846,7 @@ const PLACES = [
     "address": "101 Regents Park Rd, NW1 8UR",
     "hours": "Mon & Sun 9am-3pm, Tue-Sat 9am-10pm",
     "price": "Cafe prices",
-    "notes": "Charming outdoor tables near pastel houses",
+    "notes": "Charming outdoor tables near a row of pastel houses.",
     "source": "theinfatuation.com",
     "vibes": [
       "outdoorsy",
@@ -3870,7 +3870,7 @@ const PLACES = [
     "address": "Granary Building, 1 Granary Square, N1C 4AA",
     "hours": "Mon-Fri 8am-10:30pm, Sat 9am-10:30pm, Sun 9am-9:30pm",
     "price": "Cafe/restaurant prices",
-    "notes": "Large roastery, covered outdoor tables, workshop-style sharing tables",
+    "notes": "A large roastery with covered outdoor tables and workshop-style sharing tables.",
     "source": "theinfatuation.com",
     "vibes": [
       "outdoorsy",
@@ -3894,7 +3894,7 @@ const PLACES = [
     "address": "14 Bury Place, WC1A 2JL",
     "hours": "Bookshop Mon-Sat 10am-6:30pm, Sun 12-6pm; Cake Shop Tue-Sat 12-4pm",
     "price": "Cafe prices",
-    "notes": "Seasonal daily menu, cakes incl vegan, seating in cafe/back yard/front of shop",
+    "notes": "A seasonal daily menu with cakes (vegan options included), and seating in the cafe, the back yard, or the front of the shop.",
     "source": "londonist.com",
     "vibes": [
       "pretty_aesthetic",
@@ -3918,7 +3918,7 @@ const PLACES = [
     "address": "41 Great Russell Street, WC1B 3PE",
     "hours": "Mon-Fri 9am-6:30pm, Sat 12-4pm, closed Sun",
     "price": "Cafe/tearoom prices",
-    "notes": "Traditional basement tearoom, Middle East/Africa/Asia specialist bookshop, full afternoon tea",
+    "notes": "A traditional basement tearoom inside a bookshop specialising in the Middle East, Africa, and Asia, with a full afternoon tea on offer.",
     "source": "londonist.com",
     "vibes": [
       "pretty_aesthetic",
@@ -3942,7 +3942,7 @@ const PLACES = [
     "address": "4 Blenheim Crescent, Notting Hill, London W11 1NN",
     "hours": "Lunch Tue-Fri at noon",
     "price": "~£7 3-course lunch",
-    "notes": "Best smelling bookshop, budget-friendly lunch",
+    "notes": "Reputedly the best-smelling bookshop around, with a budget-friendly lunch.",
     "source": "diaryofalondoness.com",
     "vibes": [
       "cheap_long_stay",
@@ -3967,7 +3967,7 @@ const PLACES = [
     "address": "196A Piccadilly, W1J 9EY",
     "hours": "Mon-Wed 12-7pm, Thu-Sat 12-9pm",
     "price": "Cocktail/wine bar prices",
-    "notes": "High-end coffee table books, double-height ceilings, feels like a hotel lobby bar",
+    "notes": "High-end coffee table books under double-height ceilings, feels more like a hotel lobby bar.",
     "source": "londonist.com",
     "vibes": [
       "pretty_aesthetic",
@@ -3991,7 +3991,7 @@ const PLACES = [
     "address": "31 Norfolk Place, London W2 1QH",
     "hours": "Daily 7am-7pm",
     "price": "Cafe prices",
-    "notes": "International newspapers and magazines, local hub for journalists",
+    "notes": "International newspapers and magazines, a local hub for journalists.",
     "source": "diaryofalondoness.com",
     "vibes": [
       "pretty_aesthetic",
@@ -4015,7 +4015,7 @@ const PLACES = [
     "address": "10 Middle Lane, Crouch End, London N8 8PL",
     "hours": "Mon-Sat 9:30am-5:30pm, Sun 11am-4pm",
     "price": "Cafe prices",
-    "notes": "Children's specialist, book clubs, theatre space",
+    "notes": "A children's specialist bookshop with book clubs and a theatre space.",
     "source": "diaryofalondoness.com",
     "vibes": [
       "pretty_aesthetic",
@@ -4039,7 +4039,7 @@ const PLACES = [
     "address": "Lower Marsh",
     "hours": "Mon-Tue 11am-6:30pm, Wed-Fri 11am-9pm, Sat 11:30am-6:30pm, closed Sun",
     "price": "Cafe prices",
-    "notes": "Travel books with courtyard cafe serving artisan global cuisine",
+    "notes": "Travel books alongside a courtyard cafe serving artisan global cuisine.",
     "source": "diaryofalondoness.com",
     "vibes": [
       "outdoorsy",
@@ -4064,7 +4064,7 @@ const PLACES = [
     "address": "107 Charing Cross Road, WC2H 0DT",
     "hours": "Mon-Sat 8:30am-9pm, Sun 10am-6pm",
     "price": "Cafe prices",
-    "notes": "Fifth floor, sleek open-plan design, suits lunch meetings",
+    "notes": "On the fifth floor, with a sleek, open-plan design that suits lunch meetings.",
     "source": "londonist.com",
     "vibes": [
       "meeting_ready",
@@ -4089,7 +4089,7 @@ const PLACES = [
     "address": "47 North Cross Road, East Dulwich, London SE22 9ET",
     "hours": "Mon-Sat 10am-5pm, Sun 10am-4pm",
     "price": "Cafe prices",
-    "notes": "Children's, fiction, travel & design, dog-friendly with resident dog",
+    "notes": "Children's, fiction, travel, and design books, dog-friendly with a resident dog of its own.",
     "source": "diaryofalondoness.com",
     "vibes": [
       "pretty_aesthetic",
@@ -4113,7 +4113,7 @@ const PLACES = [
     "address": "7 Mercer Walk, WC2H 9FA",
     "hours": "Mon-Wed 9am-6pm, Thu-Fri 9am-7pm, Sat 10am-7pm, Sun 12-6pm",
     "price": "Cafe prices",
-    "notes": "Known for hot chocolate, few tables, outdoor seating on nice days, travel specialist since 1853, dog-friendly",
+    "notes": "Known for its hot chocolate, with just a few tables inside and outdoor seating on nice days — a travel specialist since 1853, and dog-friendly.",
     "source": "londonist.com",
     "vibes": [
       "outdoorsy",
@@ -4138,7 +4138,7 @@ const PLACES = [
     "address": "203-206 Piccadilly, W1J 9HD",
     "hours": "5th View bar: Mon-Sat 9am-9pm, Sun 12-6pm",
     "price": "Cafe/bar prices",
-    "notes": "Three cafes in one building; Jermyn Street Mezzanine noted as quiet and good for working",
+    "notes": "Three cafes in one building; the Jermyn Street Mezzanine is the quiet one, good for working.",
     "source": "londonist.com",
     "vibes": [
       "pretty_aesthetic",
@@ -4162,7 +4162,7 @@ const PLACES = [
     "address": "1A Morocco Street, SE1 3HB",
     "hours": "Mon 10am-6pm; Tue-Wed 10am-10pm; Thu-Sat 10am-11pm; Sun 10am-7pm",
     "price": "Cafe prices",
-    "notes": "Cafe-bookshop combo, front tables on charming street",
+    "notes": "A cafe-bookshop combo with front tables on a charming street.",
     "source": "theinfatuation.com",
     "vibes": [
       "pretty_aesthetic",
@@ -4186,7 +4186,7 @@ const PLACES = [
     "address": "82 Gower Street, WC1E 6EQ",
     "hours": "Mon-Sat 8:30am-9pm, Sun 12-5pm",
     "price": "Cafe prices",
-    "notes": "Laptop workers prevalent, window seats, coffee shop yard in back alley",
+    "notes": "Popular with laptop workers, with window seats and a coffee shop yard tucked in the back alley.",
     "source": "londonist.com",
     "vibes": [
       "pretty_aesthetic",
@@ -4210,7 +4210,7 @@ const PLACES = [
     "address": "19-20 Tottenham Court Road, W1T 1BJ",
     "hours": "Mon-Sat 10am-8pm, Sun 11:30am-5:30pm",
     "price": "Cafe/bar prices",
-    "notes": "Basement, industrial chic, coffee by day cocktails by night, unreliable phone signal",
+    "notes": "A basement space with industrial chic styling, coffee by day and cocktails by night, though phone signal is unreliable down there.",
     "source": "londonist.com",
     "vibes": [
       "pretty_aesthetic",
@@ -4234,7 +4234,7 @@ const PLACES = [
     "address": "306-308 Kennington Road, SE11 4LD",
     "hours": "Mon-Fri 8am-4pm, Sat-Sun 9am-4pm",
     "price": "Cafe prices",
-    "notes": "Modern, light and airy, non-fiction focus, brunch, central seating ringed by bookshelves",
+    "notes": "Modern, light and airy, with a non-fiction focus, brunch, and central seating ringed by bookshelves.",
     "source": "londonist.com",
     "vibes": [
       "pretty_aesthetic",
@@ -4258,7 +4258,7 @@ const PLACES = [
     "address": "159 Francis Road, E10 6NT",
     "hours": "Tue-Sat 10am-6pm, Sun 10am-5pm (closed Mon)",
     "price": "Cafe/bar prices",
-    "notes": "Books, coffee, craft beer and wine, picnic bench seating outside",
+    "notes": "Books, coffee, craft beer and wine, with picnic bench seating outside.",
     "source": "londonist.com",
     "vibes": [
       "pretty_aesthetic",
@@ -4282,7 +4282,7 @@ const PLACES = [
     "address": "118 Bethnal Green Road, E2 6DG",
     "hours": "Mon-Wed 10am-6pm, Thu-Sun 10am-7pm",
     "price": "Cafe/bar prices",
-    "notes": "LGBTQIA+ venue, bookshop/cafe championing queer and marginalised communities, separate late bar",
+    "notes": "An LGBTQIA+ venue, a bookshop and cafe championing queer and marginalised communities, with a separate late bar.",
     "source": "londonist.com",
     "vibes": [
       "pretty_aesthetic",
@@ -4306,7 +4306,7 @@ const PLACES = [
     "address": "51 Greenwich Church Street, SE10 9BL",
     "hours": "Mon-Sat 9am-7pm, Sun 11:30am-5:30pm",
     "price": "Cafe prices",
-    "notes": "Upstairs cafe",
+    "notes": "An upstairs cafe.",
     "source": "londonist.com",
     "vibes": [
       "pretty_aesthetic",
@@ -4330,7 +4330,7 @@ const PLACES = [
     "address": "The Grand Building, Trafalgar Square, London WC2N 5EJ",
     "hours": "Mon-Sat 9am-8pm, Sun 12pm-6pm",
     "price": "Cafe prices",
-    "notes": "Cafe on site",
+    "notes": "A cafe on site.",
     "source": "tripadvisor.com",
     "vibes": [
       "pretty_aesthetic",
