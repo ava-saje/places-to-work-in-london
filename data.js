@@ -25,7 +25,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Standard",
@@ -50,7 +51,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Hoxton Shoreditch",
@@ -75,7 +77,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Hoxton Southwark",
@@ -100,7 +103,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "citizenM Tower of London",
@@ -124,7 +128,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "citizenM Victoria",
@@ -148,7 +153,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "citizenM Bankside",
@@ -173,7 +179,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "TRIBE Canary Wharf",
@@ -198,7 +205,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Andaz Liverpool Street",
@@ -222,7 +230,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Kimpton Fitzroy London",
@@ -247,7 +256,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Brown's Hotel",
@@ -271,7 +281,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Hotel Café Royal",
@@ -295,7 +306,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Shangri-La at The Shard",
@@ -319,7 +331,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "116 Pall Mall",
@@ -342,7 +355,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Langham",
@@ -366,7 +380,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "ME London",
@@ -391,7 +406,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "South Place Hotel",
@@ -415,7 +431,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "W London",
@@ -440,7 +457,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Flemings Mayfair",
@@ -464,7 +482,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Athenaeum",
@@ -487,7 +506,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Treehouse London",
@@ -511,7 +531,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Sea Containers London",
@@ -535,7 +556,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Host Coffee",
@@ -558,7 +580,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Wren Coffee",
@@ -580,7 +603,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Redemption Roasters (Covent Garden)",
@@ -602,7 +626,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Joe & The Juice (Soho)",
@@ -624,7 +649,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "EZ & Moss",
@@ -646,7 +672,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "Vagabond",
@@ -668,7 +695,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "St Pauls Islington",
@@ -690,7 +718,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "With Milk",
@@ -714,7 +743,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Coffee Plant",
@@ -736,7 +766,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Chief Coffee",
@@ -758,7 +789,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Artisan Coffee School",
@@ -780,7 +812,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Greenspeares",
@@ -802,7 +835,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Fuckoffee",
@@ -825,7 +859,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Stir Coffee",
@@ -847,7 +882,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Peckham Pelican",
@@ -869,7 +905,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Lumberjack Cafe",
@@ -891,7 +928,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Ozone Coffee",
@@ -913,7 +951,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Forge & Co.",
@@ -935,7 +974,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "No 42 Coffee Junction",
@@ -960,7 +1000,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Market Cafe",
@@ -982,7 +1023,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Lighthaus",
@@ -1005,7 +1047,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Roastery and Bake Hall (Harrods)",
@@ -1027,7 +1070,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Fifth-Floor Café & Terrace (Harvey Nichols)",
@@ -1049,7 +1093,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Serata Hall",
@@ -1074,7 +1119,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Bluebird Café",
@@ -1097,7 +1143,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Cocotte",
@@ -1121,7 +1168,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Riding House Café",
@@ -1145,7 +1193,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Brother Marcus",
@@ -1168,7 +1217,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Coppa Club Putney",
@@ -1194,7 +1244,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Café Van Gogh",
@@ -1217,7 +1268,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Rake's Café Bar",
@@ -1240,7 +1292,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Megan's",
@@ -1263,7 +1316,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "St Pancras Brasserie by Searcys",
@@ -1286,7 +1340,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Dean Street Townhouse",
@@ -1309,7 +1364,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Mare Street Market",
@@ -1332,7 +1388,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Straits Bar",
@@ -1355,7 +1412,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Caravan (multiple)",
@@ -1378,7 +1436,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Hithe + Seek",
@@ -1401,7 +1460,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "German Gymnasium",
@@ -1425,7 +1485,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Kindred",
@@ -1449,7 +1510,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "Smith's Bar & Grill",
@@ -1473,7 +1535,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Grind (multiple)",
@@ -1496,7 +1559,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Soak",
@@ -1519,7 +1583,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Book Club",
@@ -1542,7 +1607,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Drake & Morgan",
@@ -1565,7 +1631,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Skylight",
@@ -1588,7 +1655,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Galvin Demoiselle at The Conservatory (Harrods)",
@@ -1611,7 +1679,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Arthur's (Liberty)",
@@ -1634,7 +1703,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Wallpaper* Bar (Harvey Nichols)",
@@ -1657,7 +1727,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Aubaine (Selfridges)",
@@ -1680,7 +1751,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Caviar House & Prunier (Selfridges)",
@@ -1703,7 +1775,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "45 Jermyn St. (Fortnum & Mason)",
@@ -1726,7 +1799,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Champagne Bar (Harrods)",
@@ -1749,7 +1823,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Smugglers Tavern",
@@ -1772,7 +1847,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "The Queens Head",
@@ -1795,7 +1871,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Alpaca",
@@ -1818,7 +1895,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "The Hanbury",
@@ -1841,7 +1919,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "The Birdcage",
@@ -1864,7 +1943,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "The Hercules",
@@ -1887,7 +1967,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Space Bar",
@@ -1910,7 +1991,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Angel of Bow",
@@ -1933,7 +2015,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Royal Oak",
@@ -1958,7 +2041,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "The Queen's Head (Limehouse)",
@@ -1981,7 +2065,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "The Bow Bells",
@@ -2004,7 +2089,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Crown and Shuttle",
@@ -2029,7 +2115,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "The Crown (Hackney)",
@@ -2054,7 +2141,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "The Kings Arms",
@@ -2077,7 +2165,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "Lord Nelson",
@@ -2100,7 +2189,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "The Rising",
@@ -2124,7 +2214,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Shirker's Rest",
@@ -2148,7 +2239,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "The Dog and Bell",
@@ -2174,7 +2266,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Waverley Arms",
@@ -2197,7 +2290,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "The Ship",
@@ -2222,7 +2316,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Bricklayers Arms",
@@ -2247,7 +2342,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "The Windmill",
@@ -2271,7 +2367,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "The Duchess",
@@ -2295,7 +2392,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "The Hansom Cab",
@@ -2318,7 +2416,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "The Askew",
@@ -2341,7 +2440,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Old Hat",
@@ -2364,7 +2464,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "The Fox",
@@ -2389,7 +2490,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "eOffice Soho HQ",
@@ -2411,7 +2513,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Uncommon Liverpool Street",
@@ -2434,7 +2537,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Uncommon Fulham",
@@ -2457,7 +2561,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Uncommon Highbury & Islington",
@@ -2480,7 +2585,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Uncommon Holborn",
@@ -2503,7 +2609,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Uncommon Borough",
@@ -2526,7 +2633,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Clockwise Wood Green",
@@ -2549,7 +2657,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Clockwise Old Town Hall, Bromley",
@@ -2572,7 +2681,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Mindspace Shoreditch/Liverpool Street",
@@ -2595,7 +2705,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Mindspace Old Street",
@@ -2618,7 +2729,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Work.Life Soho",
@@ -2640,7 +2752,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Work.Life Old Street",
@@ -2662,7 +2775,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Work.Life Borough",
@@ -2684,7 +2798,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Work.Life Camden",
@@ -2706,7 +2821,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Huckletree Shoreditch",
@@ -2728,7 +2844,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Huckletree Westminster",
@@ -2750,7 +2867,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Huckletree White City",
@@ -2772,7 +2890,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "FORA Farringdon",
@@ -2795,7 +2914,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "FORA Fitzrovia",
@@ -2818,7 +2938,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Ministry",
@@ -2840,7 +2961,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "British Library",
@@ -2864,7 +2986,8 @@ const PLACES = [
       "coffee": false,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Barbican Library",
@@ -2888,7 +3011,8 @@ const PLACES = [
       "coffee": false,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Senate House Library",
@@ -2911,7 +3035,8 @@ const PLACES = [
       "coffee": false,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Wellcome Library",
@@ -2935,7 +3060,8 @@ const PLACES = [
       "coffee": false,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "National Poetry Library",
@@ -2958,7 +3084,8 @@ const PLACES = [
       "coffee": false,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Reuben Library (BFI)",
@@ -2981,7 +3108,8 @@ const PLACES = [
       "coffee": false,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Bethnal Green Library",
@@ -3004,7 +3132,8 @@ const PLACES = [
       "coffee": false,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Canada Water Library",
@@ -3028,7 +3157,8 @@ const PLACES = [
       "coffee": false,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Peckham Library",
@@ -3051,7 +3181,8 @@ const PLACES = [
       "coffee": false,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "West Greenwich Library",
@@ -3074,7 +3205,8 @@ const PLACES = [
       "coffee": false,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Swiss Cottage Central Library",
@@ -3097,7 +3229,8 @@ const PLACES = [
       "coffee": false,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Kensington Central Library",
@@ -3120,7 +3253,8 @@ const PLACES = [
       "coffee": false,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The London Library",
@@ -3144,7 +3278,8 @@ const PLACES = [
       "coffee": false,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "V&A Café",
@@ -3167,7 +3302,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Tate Modern L9 Restaurant",
@@ -3190,7 +3326,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Design Museum - Parabola",
@@ -3213,7 +3350,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Garden Museum Café",
@@ -3236,7 +3374,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "National Gallery - National Dining Rooms",
@@ -3259,7 +3398,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "British Museum - The Great Court",
@@ -3285,7 +3425,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Rochelle Canteen at the ICA",
@@ -3308,7 +3449,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Newport Street Gallery - Pharmacy 2",
@@ -3331,7 +3473,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Bloomsbury Square Gardens",
@@ -3354,7 +3497,8 @@ const PLACES = [
       "coffee": false,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Cavendish Square Gardens",
@@ -3377,7 +3521,8 @@ const PLACES = [
       "coffee": false,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Bedford Square Gardens",
@@ -3401,7 +3546,8 @@ const PLACES = [
       "coffee": false,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Trinity Church Square",
@@ -3425,7 +3571,8 @@ const PLACES = [
       "coffee": false,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Berkeley Square Gardens",
@@ -3448,7 +3595,8 @@ const PLACES = [
       "coffee": false,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Cafe Linea",
@@ -3471,7 +3619,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Katsute 100",
@@ -3494,7 +3643,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Heidi",
@@ -3517,7 +3667,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "District - Battersea Park",
@@ -3540,7 +3691,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Running Late Coffee",
@@ -3563,7 +3715,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Kuro Coffee",
@@ -3586,7 +3739,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Fred Coffee & Bakery",
@@ -3609,7 +3763,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Café Kitsuné",
@@ -3632,7 +3787,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Day Trip",
@@ -3655,7 +3811,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Pavilion Cafe (Victoria Park)",
@@ -3678,7 +3835,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Greenberry Cafe",
@@ -3701,7 +3859,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Caravan King's Cross",
@@ -3724,7 +3883,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "London Review Bookshop and Cake Shop",
@@ -3747,7 +3907,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Tea and Tattle @ Arthur Probsthain's",
@@ -3770,7 +3931,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Books for Cooks",
@@ -3794,7 +3956,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Maison Assouline / Swans Bar",
@@ -3817,7 +3980,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Kioskafe",
@@ -3840,7 +4004,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Pickled Pepper Books",
@@ -3863,7 +4028,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Travelling Through",
@@ -3887,7 +4053,8 @@ const PLACES = [
       "coffee": true,
       "greenery": true,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "The Cafe at Foyles",
@@ -3911,7 +4078,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Rye Books",
@@ -3934,7 +4102,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "Stanfords Coffee House",
@@ -3958,7 +4127,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": true
-    }
+    },
+    "website": null
   },
   {
     "name": "Waterstones Piccadilly (Embertons/5th View/Jermyn St Mezzanine)",
@@ -3981,7 +4151,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Morocco Bound Bookshop Café",
@@ -4004,7 +4175,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Dillons Café at Waterstones Gower Street",
@@ -4027,7 +4199,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Lucky Jim's at Waterstones Tottenham Court Road",
@@ -4050,7 +4223,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Vanilla Black Coffee & Books",
@@ -4073,7 +4247,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Phlox Books",
@@ -4096,7 +4271,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Glass House / The Common Press",
@@ -4119,7 +4295,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Waterstones Greenwich",
@@ -4142,7 +4319,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   },
   {
     "name": "Waterstones Trafalgar Square",
@@ -4165,7 +4343,8 @@ const PLACES = [
       "coffee": true,
       "greenery": false,
       "dog_friendly": false
-    }
+    },
+    "website": null
   }
 ];
 

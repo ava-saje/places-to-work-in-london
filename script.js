@@ -312,6 +312,14 @@ function renderResult() {
     : place.address;
   document.getElementById('result-maps').href = `https://www.google.com/maps/search/?api=1&query=${buildMapsQuery(place)}`;
 
+  const websiteEl = document.getElementById('result-website');
+  if (place.website) {
+    websiteEl.href = place.website;
+    websiteEl.hidden = false;
+  } else {
+    websiteEl.hidden = true;
+  }
+
   const hoursEl = document.getElementById('result-hours');
   hoursEl.textContent = isPlaceholder(place.hours, ['check hours', 'check current hours'])
     ? 'Hours vary — worth checking ahead.'
@@ -320,10 +328,6 @@ function renderResult() {
   document.getElementById('result-price').textContent = priceDisplay(place.price);
 
   document.getElementById('result-notes').textContent = place.notes;
-
-  document.getElementById('result-vibes').innerHTML = place.vibes
-    .map((v) => `<span class="chip">${VIBE_LABELS[v]}</span>`)
-    .join('');
 }
 
 // ---------- Init ----------

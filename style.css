@@ -378,17 +378,27 @@ body {
   margin: 0;
 }
 
+.result-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 18px;
+  margin-top: 6px;
+}
+
 .result-link {
   display: inline-block;
   font-size: 0.88rem;
   font-weight: 600;
   color: var(--ink);
   text-decoration: none;
-  margin-top: 6px;
 }
 
 .result-link:hover {
   text-decoration: underline;
+}
+
+.result-link[hidden] {
+  display: none;
 }
 
 /* Hours / price are secondary, low-priority details — plain quiet text,
@@ -425,23 +435,7 @@ body {
   font-size: 0.96rem;
   color: var(--ink-soft);
   line-height: 1.55;
-  margin: 4px 0 20px;
-}
-
-.result-vibes {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 26px;
-}
-
-.chip {
-  font-size: 0.78rem;
-  font-weight: 500;
-  color: var(--ink-soft);
-  background: var(--butter-soft);
-  border-radius: 999px;
-  padding: 6px 13px;
+  margin: 4px 0 28px;
 }
 
 .result-minor-actions {
